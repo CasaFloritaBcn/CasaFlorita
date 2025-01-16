@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Gerislan;
   src: url("../assets/fonts/Gerislan.woff2") format("woff2");
@@ -105,7 +106,7 @@ header .header_container .small-nav {
   background: #f7b7b1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 0.5rem 1rem;
   transition: right 0.3s ease-in-out;
 }
@@ -114,6 +115,16 @@ header .header_container .small-nav .logo {
   width: 80%;
   display: flex;
   justify-content: center;
+}
+header .header_container .small-nav .menuLinks {
+  padding-left: 20px;
+  row-gap: 10px;
+}
+header .header_container .small-nav .menuLinks li {
+  font-family: "Gerislan";
+  font-weight: 400;
+  font-size: 18px;
+  color: #CE3939;
 }
 header .header_container .small-nav .language_nav-small {
   display: flex;
@@ -145,7 +156,7 @@ header .header_container .small-nav ul {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 10px 10px;
+  padding: 2px 2px;
   margin: 0;
   row-gap: 15px;
 }
@@ -164,7 +175,7 @@ header .header_container .small-nav ul a li {
   font-family: "Gerislan";
   font-weight: 400;
   cursor: pointer;
-  color: #CE3939;
+  color: #992b2b;
   white-space: nowrap;
   cursor: pointer;
 }
@@ -444,8 +455,9 @@ main .aboutSection .about_inner .about_second .image_container img {
   object-fit: cover;
 }
 main .menuSection {
-  background-image: url("../images/menuBackground.webp");
+  background-image: url("../images/carta_small_background.webp");
   background-size: cover;
+  padding-top: 60px;
   background-position: 50% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -453,42 +465,132 @@ main .menuSection {
 }
 main .menuSection .menu_inner {
   padding-bottom: 50px;
+  column-count: 2;
+  column-gap: 16px;
+  gap: 16px;
 }
-main .menuSection .menu_inner h3 {
-  font-size: 90px;
-  font-family: "Gerislan";
-  font-weight: 400;
-  color: #CE3939;
-  text-align: center;
-  padding-top: 50px;
+main .menuSection .menu_inner .brunchSection {
   cursor: default;
-}
-main .menuSection .menu_inner .menu_buttons {
+  break-inside: avoid;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 30px;
-  margin-top: 40px;
 }
-main .menuSection .menu_inner .menu_buttons button {
-  width: 500px;
+main .menuSection .menu_inner .brunchSection h3 {
+  color: #B53226;
   font-size: 55px;
   font-family: "Gerislan";
-  font-weight: 400;
-  padding: 10px 20px;
-  background-color: #E18F90;
-  border-radius: 54px;
-  border-color: #E18F90;
-  border-width: 0px;
-  cursor: pointer;
-  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
 }
-main .menuSection .menu_inner .menu_buttons button:hover {
-  scale: 1.02;
+main .menuSection .menu_inner .brunchSection hr {
+  border: none; /* Убираем стандартное оформление */
+  height: 1.5px; /* Толщина линии */
+  background-color: #B53226; /* Цвет линии */
+  margin: 10px auto 20px auto;
+  width: 80%;
+  box-sizing: border-box;
 }
-main .menuSection .menu_inner .menu_buttons button:active {
-  scale: 0.99;
+main .menuSection .menu_inner .brunchSection .dishes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish {
+  column-gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .moveRight {
+  margin-right: 5px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .moveRightMore {
+  margin-right: 7px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .moveRightMoree {
+  margin-right: 10px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .dishData {
+  width: 50%;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .dishData h4 {
+  color: #B53226;
+  font-size: 35px;
+  font-family: "Gerislan";
+  font-weight: bold;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .dishData p {
+  margin-top: 5px;
+  color: #B53226;
+  font-size: 18px;
+  font-family: "Gerislan";
+  font-style: italic;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .dishData ul {
+  margin: 0;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .dishData ul li {
+  color: #B53226;
+  font-size: 18px;
+  font-family: "Gerislan";
+  font-style: italic;
+  margin-top: 5px;
+  font-weight: bold;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .priceNames {
+  display: flex;
+  column-gap: 20px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .priceNames .copa {
+  margin-right: 10px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .priceNamesChupito {
+  display: flex;
+  column-gap: 20px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .priceNamesChupito .copa {
+  margin-right: 0;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .priceNamesChupito .copas {
+  margin-right: 10px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .price {
+  display: flex;
+  column-gap: 20px;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish .price p {
+  white-space: nowrap;
+}
+main .menuSection .menu_inner .brunchSection .dishes .dish p {
+  color: #B53226;
+  font-size: 35px;
+  font-family: "Gerislan";
+  font-weight: bold;
+}
+main .menuSection .menu_inner .smaller .dishes .dish .dishData h4 {
+  font-size: 22px;
+  font-family: "Gerislan";
+  font-weight: bold;
+}
+main .menuSection hr {
+  border: none;
+  height: 1.5px;
+  background-color: #B53226;
+  margin: 20px auto;
+  width: 90%;
+  box-sizing: border-box;
+}
+main .menuSection .drinksHeading {
+  text-align: center;
+  color: #B53226;
+  font-size: 50px;
+  font-family: "Gerislan";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
 }
 main .slider {
   width: 100%;
@@ -919,17 +1021,8 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
     font-size: 15px;
     margin-top: 15px;
   }
-  main .menuSection .menu_inner h3 {
-    font-size: 60px;
-    padding-top: 30px;
-  }
-  main .menuSection .menu_inner .menu_buttons {
-    margin-top: 10px;
-    row-gap: 10px;
-  }
-  main .menuSection .menu_inner .menu_buttons button {
-    font-size: 30px;
-    width: 300px;
+  main .menuSection .menu_inner {
+    column-count: 1;
   }
   main .contactsSection .contacts_inner .social h4 {
     font-size: 20px;
@@ -1019,20 +1112,38 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   main .menuSection {
     background-image: url("../images/carta_small_background.webp");
   }
-  main .menuSection .menu_inner {
-    padding-bottom: 50px;
+  main .menuSection .menu_inner .brunchSection h3 {
+    font-size: 35px;
   }
-  main .menuSection .menu_inner h3 {
-    font-size: 70px;
-    padding-top: 20px;
+  main .menuSection .menu_inner .brunchSection hr {
+    width: 80%;
   }
-  main .menuSection .menu_inner .menu_buttons {
-    margin-top: 15px;
-    row-gap: 15px;
+  main .menuSection .menu_inner .brunchSection .dishes .dish {
+    column-gap: 15px;
   }
-  main .menuSection .menu_inner .menu_buttons button {
-    font-size: 30px;
-    width: 300px;
+  main .menuSection .menu_inner .brunchSection .dishes .dish .dishData {
+    width: 60%;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .dishData h4 {
+    font-size: 24px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .dishData p {
+    font-size: 14px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .dishData ul li {
+    font-size: 14px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish p {
+    font-size: 24px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .moveRight {
+    margin-right: 5px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .moveRightMore {
+    margin-right: 7px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .moveRightMoree {
+    margin-right: 10px;
   }
   main .contactsSection .contacts_inner .upper_decoration {
     padding-top: 20px;
