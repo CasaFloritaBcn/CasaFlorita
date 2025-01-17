@@ -14,7 +14,176 @@ const translations = {
       about_second_text_body: "The interior of our restaurant is a blend of elegance and comfort. Every element of the decor has been chosen with love and attention to detail, creating an atmosphere where you’ll want to spend time with pleasure. Warm colors, stylish furniture, and soft lighting create the perfect setting for pleasant meetings and refined dinners.",
       menuTitle: "MENU",
       socialTitle: "Contact us in any way that is convenient for you",
-      instaTikTokContainerTitle: "Our social networks"
+      instaTikTokContainerTitle: "Our social networks",
+
+
+      /* Food */
+      brunchSaladoHeading: "SALTED BRUNCH",
+      brunchSaladoBrusqueta: "SALMON BRUSCHETTA",
+      brunchSaladoBrusquetaDesc: "Toast, salmon, cream cheese, fresh avocado, poached egg, red onion, capers with piquillo pepper sauce",
+      brunchSaladoTurkish: "TURKISH EGGS",
+      brunchSaladoTurkishDesc:"Greek yogurt with garlic and lemon juice, two poached eggs, confit cherry tomatoes, crispy onion, chipotle chili butter, and sourdough toast", 
+      brunchSaladoFlorBreakf:"FLORITA BREAKFAST",
+      brunchSaladoFlorBreakfDesc:"Two fried or scrambled eggs, bacon, chicken fingers, roasted tomato, mushrooms, beans with a slice of sourdough toast",
+      brunchSaladoOslo:"OSLO BENEDICT",
+      brunchSaladoOsloDesc:"Brioche bread, salmon, fresh avocado, two poached eggs, asparagus, and hollandaise sauce",
+      brunchSaladoWaffle:"WAFFLE BENEDICT",
+      brunchSaladoWaffleDesc:"Zucchini waffle, salmon, flamed avocado, poached egg, pumpkin seeds and hollandaise sauce",
+      brunchSaladoPorkBened:"PULLED PORK BENEDICT",
+      brunchSaladoPorkBenedDesc:"Brioche bread, slow cooked pork, two poached eggs, fried shimeji mushrooms, baby spinach and hollandaise sauce",
+      brunchSaladoAvocToast: "AVOCADO TOAST",
+      brunchSaladoAvocToastDesc: "Fresh avocado on sourdough bread, poached egg, feta crumbles, cherry tomatoes, radish, pomegranate, pumpkin seeds, lemon juice and balsamic vinegar",
+      brunchSaladoSandwPork:"PULLED PORK SANDWICH",
+      brunchSaladoSandwPorkDesc: "Toasted bread, slow cooked pork, chimichurri sauce, baby spinach, fried onion and portobello mushrooms, pickled cucumber, sweet potato fries",
+      brunchSaladoSandwPollo: "CHICKEN SANDWICH",
+      brunchSaladoSandwPolloDesc: "Toasted bread, crispy chicken, creamy coleslaw, cheddar cheese, yellow pepper sauce and sweet potato fries",
+      brunchSaladoShakshuka: "SHAKSHUKA",
+      brunchSaladoShakshukaDesc: "Two poached eggs, feta cheese, thick sauce of smoked peppers, eggplant, and tomatoes with herbs, served with sourdough bread",
+
+
+      brunchDulceHeading: "SWEET BRUNCH",
+      brunchDulcePancakes: "PANCAKES",
+      brunchDulcePancakesDesc: "Nutella, banana, mascarpone with yogurt, caramelized nuts, seasonal fruits, powdered sugar, and vanilla ice cream",
+      brunchDulceFrToast: "FRENCH TOAST",
+      brunchDulceFrToastDesc: "Brioche bread, mascarpone with vanilla and orange, caramelized banana, maple syrup, seasonal fruits, chopped pistachios, and vanilla ice cream",
+      brunchDulceGrBowl: "GRANOLA BOWL",
+      brunchDulceGrBowlDesc: "Homemade granola, mascarpone with yogurt, seasonal fruits, red berry compote, and toasted coconut",
+      brunchDulceTropBowl: "TROPICAL BOWL ",
+      brunchDulceTropBowlDesc: "Homemade yogurt, homemade granola, passion fruit, coconut, and seasonal fruits",
+      brunchDulceCerAvena: "OAT CEREAL",
+      brunchDulceCerAvenaDesc:"Oatmeal cooked in milk, served with seasonal berries and fruits, and a touch of butter",
+
+      crepesHeading: "CREPS",
+      crepesSaladas:"SALTY CREPS",
+      crepesSaladasSalmon: "Salmon, cream cheese, avocado, cucumber, and capers.",
+      crepesSaladasSetas: "Mushrooms, fried spinach, grated mozzarella cheese, fried egg, cherry tomatoes, and radish.",
+      crepesDulces: "SWEET CREPS",
+      crepesDulcesDesc: "Nutella, seasonal fruits, banana, whipped cream, and vanilla ice cream",
+      syrnyki: "SYRNYKI",
+
+      
+      postreHeading: "DESSERTS AND PASTRIES",
+      postreTartasCas: "CAKES TO CHOOSE FROM",
+      postrePavlova: "PAVLOVA",
+      postreCruasan: "CROISSANT",
+
+
+
+      especialHeading:"SPECIALTIES",
+      especialCroqu: "Chicken croquettes (2 pieces)",
+      especialRoastedPotat: "Roasted potato bomb stuffed with meat and served with chimichurri sauce",
+      especialRoastedPotatSalm: "Roasted potato bomb stuffed with salmon and dill",
+      especialRisotto: "Mushroom risotto",
+      especialSalmonVerd: "Oven-baked salmon with vegetables",
+      especialBeefCheek: "Beef cheek in wine sauce with mashed potatoes",
+      especialHalfChicken: "1/2 roasted chicken with roasted potatoes and rosemary",
+
+
+
+      ensaladasHeading: "SALADS",
+      ensaladasCesar: "CAESAR SALAD",
+      ensaladasCesarDesc:"Fresh lettuce, chicken breast, cherry tomatoes, parmesan shavings, pomegranate, croutons, and homemade Caesar dressing",
+      ensaladasBurrata:"BURRATA SALAD",
+      ensaladasBurrataDesc: "Heirloom tomatoes with pesto, burrata, toasted nuts, and balsamic cream",
+      ensaladasFlorita: "FLORITA SALAD",
+      ensaladasFloritaDesc: "Mixed greens, salmon, fresh avocado, beet hummus, cherry tomatoes, sun dried tomatoes, seasonal fruits, and Florita sauce",
+
+        
+
+      picarHeading: "APPETIZERS",
+      picarPanTomato: "Bread with tomato",
+      picarBravas: "Patatas bravas",
+      picarBoniato: "Fried sweet potato with the chef's special sauce",
+      picarGanush: "Baba ganoush with homemade challah bread, cherry tomatoes, chipotle butter, and pomegranate",
+      picarNachos: "Nachos with guacamole, pico de gallo, and cheddar cheese sauce",
+      picarHummus: "Traditional hummus and beet hummus with fried mushrooms and homemade challah bread",
+      picarCarpachoSalm: "Salmon Carpaccio",
+      picarTartarSalm: "Salmon and avocado tartar",
+      picarCeviche: "Corvina ceviche",
+      picarBurrataAnch: "Burrata with anchovies and tomato",
+
+
+      extrasHeading: "EXTRAS",
+      extrasPoachedEgg: "Poached egg",
+      extrasAguacate: "Avocado",
+      extrasSalmon: "Marinated salmon",
+      extrasBacon: "Bacon",
+      extrasPan: "Sourdough bread",
+      extrasPanJala: "Homemade Jala bread",
+      extrasFeta: "Feta cheese",
+      extrasPatatas: "French fries",
+
+
+      bebidas: "DRINKS",
+      cafesHeading: "Coffee",
+      cafesEspresso: "Espresso",
+      cafesEspressoDoble: "Double espresso",
+      cafesCortado: "Cortado",
+      cafesMilk: "Coffee with milk",
+      cafesCapuchino: "Capuchino",
+      cafesVienes: "Viennese Coffee",
+      cafesCarajillo: "Carajillo",
+      cafesShaquerato: "Shakerato",
+      cafesAffogato: "Affogato",
+      cafesIrlandes: "Irish Coffee",
+      cafesWhite: "Flat White",
+      cafesAmericano: "Americano",
+      cafesLatte: "Latte",
+
+
+
+      tesHeading: "Tea",
+      tesManzanilla: "Chamomile Tea",
+      tesMenta: "Pennyroyal Mint",
+      tesRotafía: "Rotafía",
+      tesVerde: "Green Tea",
+      tesNegro: "Black Tea",
+      tesRegamint: "Regamint",
+      tesPiruleta: "Piruleta Infusion",
+      tesFrutas: "Forest Fruits tea",
+      tesRooibos: "Rooibos",
+      tesMatcha: "Matcha",
+
+
+      zumosHeading: "Fresh Juices & Smoothies",
+      zumosNaranja: "Orange juice",
+      zumosManzana: "Apple juice",
+      zumosPepino: "Cucumber and celery juice",
+      zumosZanahoria: "Carrot and Apple juice",
+      zumosFresa:"Berries Smoothie",
+      zumosAntiox: "Green Antiox",
+      zumosAntioxDesc: "Apple, spinach, broccoli, cucumber, mint",
+      zumosPas:"Pasión",
+      zumosPasDesc:"Beetroot, berries, apple, peach",
+      zumosTropical: "Tropical",
+      zumosTropicalDesc: "Pineapple, pear, lemon, ginger, mango",
+
+
+      aperitivosHeading:"Appetizers &  Cocktails",
+
+
+      cervezasHeading: "Beer",
+      cervezasEstrella:"Estrella Damm draft beer 0,33",
+      cervezasNonAlco:"Non alcoholic 0,33",
+
+      refrescosHeading: "Soft drink",
+      refrescosAguaMin: "Mineral water",
+      refrescosAguaGas: "Sparkling water",
+      refrescosCacaolat: "ColaCao",
+
+      vinosHeading: "Wines",
+      vinosCopa:"Glass",
+      vinosBotella: "Bottle",
+
+      cavasHeading:"Cavas & Champagne",
+      cavasCopa:"Glass",
+      cavasBotella:"Bottle",
+
+
+      tragosHeading: "Drinks and Shots",
+      tragosChupito: "Shot",
+      tragosCopa: "Glass"
+
     },
     es:{
         reserve: "RESERVA",
@@ -31,7 +200,11 @@ const translations = {
         about_second_text_body: "El interior de nuestro restaurante es una combinación de elegancia y comodidad. Cada elemento de la decoración ha sido elegido con amor y atención al detalle, creando un ambiente en el que apetece pasar el tiempo con placer. Los colores cálidos, los muebles elegantes y la iluminación suave crean el ambiente perfecto para encuentros agradables y cenas refinadas.",
         menuTitle: "CARTA",
         socialTitle: "Contáctenos de la manera que le sea más conveniente",
-        instaTikTokContainerTitle: "Nuestras redes sociales"
+        instaTikTokContainerTitle: "Nuestras redes sociales",
+
+
+        /* Food */
+        brunchSaladoHeading: "BRUNCH SALADO"
         
     },
     ca:{
@@ -50,6 +223,8 @@ const translations = {
         menuTitle: "CARTA",
         socialTitle: "Poseu-vos en contacte amb nosaltres de la manera que us sigui més còmoda",
         instaTikTokContainerTitle: "Les nostres xarxes socials"
+
+        
         
     },
     ua:{
@@ -93,60 +268,220 @@ const translations = {
 };
 
 function changeLanguage(language) {
+    const elements = {
+      langMarkerBtn: "langMarkerBtn",
+      reserveBtn: "reserveBtn",
+      reserveBtnBurger: "reserveBtnBurger",
+      navInicio: ["navInicio", "smallNavInicio"],
+      navAbout: ["navAbout", "smallNavAbout"],
+      navMenu: ["navMenu", "smallNavMenu"],
+      navContact: ["navContact", "smallNavContacts"],
+      about_first_text_title: "about_first_text_title",
+      about_first_text_body: "about_first_text_body",
+      about_second_text_title: "about_second_text_title",
+      about_second_text_body: "about_second_text_body",
+      menuTitle: "menuTitle",
+      socialTitle: "socialTitle",
+      instaTikTokContainerTitle: "instaTikTokContainerTitle",
 
-    const langMarkerBtn = document.getElementById("langMarkerBtn");
+      /* BRUNCH SALADO */
+      brunchSaladoHeading: "brunchSaladoHeading",
+      brunchSaladoBrusqueta: "brunchSaladoBrusqueta",
+      brunchSaladoBrusquetaDesc: "brunchSaladoBrusquetaDesc",
+      brunchSaladoTurkish: "brunchSaladoTurkish",
+      brunchSaladoTurkishDesc: "brunchSaladoTurkishDesc",
+      brunchSaladoFlorBreakf: "brunchSaladoFlorBreakf",
+      brunchSaladoFlorBreakfDesc: "brunchSaladoFlorBreakfDesc",
+      brunchSaladoOslo: "brunchSaladoOslo",
+      brunchSaladoOsloDesc: "brunchSaladoOsloDesc",
+      brunchSaladoWaffle: "brunchSaladoWaffle",
+      brunchSaladoWaffleDesc: "brunchSaladoWaffleDesc",
+
+      brunchSaladoPorkBened: "brunchSaladoPorkBened",
+      brunchSaladoPorkBenedDesc: "brunchSaladoPorkBenedDesc",
+      brunchSaladoAvocToast: "brunchSaladoAvocToast",
+      brunchSaladoAvocToastDesc: "brunchSaladoAvocToastDesc",
+      brunchSaladoSandwPork: "brunchSaladoSandwPork",
+      brunchSaladoSandwPorkDesc: "brunchSaladoSandwPorkDesc",
+      brunchSaladoSandwPollo: "brunchSaladoSandwPollo",
+      brunchSaladoSandwPolloDesc: "brunchSaladoSandwPolloDesc",
+      brunchSaladoShakshuka: "brunchSaladoShakshuka",
+      brunchSaladoShakshukaDesc: "brunchSaladoShakshukaDesc",
+     
+      /* BRUNCH DULCE */
+      brunchDulceHeading: "brunchDulceHeading",
+      brunchDulcePancakes: "brunchDulcePancakes",
+      brunchDulcePancakesDesc: "brunchDulcePancakesDesc",
+      brunchDulceFrToast: "brunchDulceFrToast",
+      brunchDulceFrToastDesc: "brunchDulceFrToastDesc",
+      brunchDulceGrBowl: "brunchDulceGrBowl",
+      brunchDulceGrBowlDesc: "brunchDulceGrBowlDesc",
+      brunchDulceTropBowl: "brunchDulceTropBowl",
+      brunchDulceTropBowlDesc: "brunchDulceTropBowlDesc",
+      brunchDulceCerAvena: "brunchDulceCerAvena",
+      brunchDulceCerAvenaDesc: "brunchDulceCerAvenaDesc",
+
+      /* CREPES */
+      crepesHeading: "crepesHeading",
+      crepesSaladas: "crepesSaladas",
+      crepesSaladasSalmon: "crepesSaladasSalmon",
+      crepesSaladasSetas: "crepesSaladasSetas",
+      crepesDulces: "crepesDulces",
+      crepesDulcesDesc: "crepesDulcesDesc",
+      syrnyki: "syrnyki",
+
+      /* POSTRE */
+      
+
+      postreHeading: "postreHeading",
+      postreTartasCas: "postreTartasCas",
+      postrePavlova: "postrePavlova",
+      postreCruasan: "postreCruasan",
+
+
+      /* ESPECIALIDADES */
+        especialHeading: "especialHeading",
+        especialCroqu: "especialCroqu",
+        especialRoastedPotat: "especialRoastedPotat",
+        especialRoastedPotatSalm: "especialRoastedPotatSalm",
+        especialRisotto: "especialRisotto",
+        especialSalmonVerd: "especialSalmonVerd",
+        especialBeefCheek: "especialBeefCheek",
+        especialHalfChicken: "especialHalfChicken",
+
+      
+
+        /* ENSALADAS */
+        ensaladasHeading: "ensaladasHeading",
+        ensaladasCesar: "ensaladasCesar",
+        ensaladasCesarDesc: "ensaladasCesarDesc",
+        ensaladasBurrata: "ensaladasBurrata",
+        ensaladasBurrataDesc: "ensaladasBurrataDesc",
+        ensaladasFlorita: "ensaladasFlorita",
+        ensaladasFloritaDesc: "ensaladasFloritaDesc",
+
+
+
+        /* PARA PICAR */
+        picarHeading:"picarHeading",
+        picarPanTomato:"picarPanTomato",
+        picarBravas:"picarBravas",
+        picarBoniato:"picarBoniato",
+        picarGanush:"picarGanush",
+        picarNachos:"picarNachos",
+        picarHummus:"picarHummus",
+        picarCarpachoSalm:"picarCarpachoSalm",
+        picarTartarSalm:"picarTartarSalm",
+        picarCeviche:"picarCeviche",
+        picarBurrataAnch:"picarBurrataAnch",
+
+
+
+        /* EXTRAS */
+        extrasHeading:"extrasHeading",
+        extrasPoachedEgg:"extrasPoachedEgg",
+        extrasAguacate:"extrasAguacate",
+        extrasSalmon:"extrasSalmon",
+        extrasBacon:"extrasBacon",
+        extrasPan:"extrasPan",
+        extrasPanJala:"extrasPanJala",
+        extrasFeta:"extrasFeta",
+        extrasPatatas:"extrasPatatas",
+
+
+        /* BEBIDAS */
+        bebidas: "bebidas",
+        cafesHeading: "cafesHeading",
+        cafesEspresso: "cafesEspresso",
+        cafesEspressoDoble: "cafesEspressoDoble",
+        cafesCortado: "cafesCortado",
+        cafesMilk: "cafesMilk",
+        cafesCapuchino: "cafesCapuchino",
+        cafesVienes: "cafesVienes",
+        cafesCarajillo: "cafesCarajillo",
+        cafesShaquerato: "cafesShaquerato",
+        cafesAffogato: "cafesAffogato",
+        cafesIrlandes: "cafesIrlandes",
+        cafesWhite: "cafesWhite",
+        cafesAmericano: "cafesAmericano",
+        cafesLatte: "cafesLatte",
+        
     
-    const reserveBtn = document.getElementById("reserveBtn");
-    const reserveBtnBurger = document.getElementById("reserveBtnBurger");
+        /* Tés */
+        tesHeading: "tesHeading",
+        tesManzanilla: "tesManzanilla",
+        tesMenta: "tesMenta",
+        tesRotafía: "tesRotafía",
+        tesVerde: "tesVerde",
+        tesNegro: "tesNegro",
+        tesRegamint: "tesRegamint",
+        tesPiruleta: "tesPiruleta",
+        tesFrutas: "tesFrutas",
+        tesRooibos: "tesRooibos",
+        tesMatcha: "tesMatcha",
+       
 
-    const navInicio = document.getElementById("navInicio");
-    const smallNavInicio = document.getElementById("smallNavInicio");
+        /* Zumos */
+        zumosHeading: "zumosHeading",
+        zumosNaranja: "zumosNaranja",
+        zumosManzana: "zumosManzana",
+        zumosPepino: "zumosPepino",
+        zumosZanahoria: "zumosZanahoria",
+        zumosFresa: "zumosFresa",
+        zumosAntiox: "zumosAntiox",
+        zumosAntioxDesc: "zumosAntioxDesc",
+        zumosPas: "zumosPas",
+        zumosPasDesc: "zumosPasDesc",
+        zumosTropical: "zumosTropical",
+        zumosTropicalDesc: "zumosTropicalDesc",
+        
 
-    const navAbout = document.getElementById("navAbout");
-    const smallNavAbout = document.getElementById("smallNavAbout");
+        /* Aperitivos */
+        aperitivosHeading: "aperitivosHeading",
 
-    const navMenu = document.getElementById("navMenu");
-    const smallNavMenu = document.getElementById("smallNavMenu");
+        /* Cervezas */
+        cervezasHeading: "cervezasHeading",
+        cervezasEstrella: "cervezasEstrella",
+        cervezasNonAlco: "cervezasNonAlco",
 
-    const navContact = document.getElementById("navContact");
-    const smallNavContacts = document.getElementById("smallNavContacts");
-
-
-    const about_first_text_title = document.getElementById("about_first_text_title");
-    const about_first_text_body = document.getElementById("about_first_text_body");
-    const about_second_text_title = document.getElementById("about_second_text_title");
-    const about_second_text_body = document.getElementById("about_second_text_body");
-    const menuTitle = document.getElementById("menuTitle");
-    const socialTitle = document.getElementById("socialTitle");
-    const instaTikTokContainerTitle = document.getElementById("instaTikTokContainerTitle");
+        /* Refrescos */
+        refrescosHeading: "refrescosHeading",
+        refrescosAguaMin: "refrescosAguaMin",
+        refrescosAguaGas: "refrescosAguaGas",
+        refrescosCacaolat: "refrescosCacaolat",
 
 
-    langMarkerBtn.textContent = translations[language].currentLang;
+        /* Vinos */
+        vinosHeading: "vinosHeading",
+        vinosCopa: "vinosCopa",
+        vinosBotella: "vinosBotella",
 
-    reserveBtn.textContent = translations[language].reserve;
-    reserveBtnBurger.textContent = translations[language].reserve;
+        /* Cavas & Champagne */
+        cavasHeading: "cavasHeading",
+        cavasCopa: "cavasCopa",
+        cavasBotella: "cavasBotella",
 
-    navInicio.textContent = translations[language].navInicio;
-    smallNavInicio.textContent = translations[language].navInicio;
+        /* Tragos y Chupitos */
+        tragosHeading: "tragosHeading",
+        tragosChupito: "tragosChupito",
+        tragosCopa: "tragosCopa",
 
-    navAbout.textContent = translations[language].navAbout;
-    smallNavAbout.textContent = translations[language].navAbout;
-
-    navMenu.textContent = translations[language].navMenu;
-    smallNavMenu.textContent = translations[language].navMenu;
-
-    navContact.textContent = translations[language].navContact;
-    smallNavContacts.textContent = translations[language].navContact;
-
-    about_first_text_title.textContent = translations[language].about_first_text_title;
-    about_first_text_body.textContent = translations[language].about_first_text_body;
-    about_second_text_title.textContent = translations[language].about_second_text_title;
-    about_second_text_body.textContent = translations[language].about_second_text_body;
-    menuTitle.textContent = translations[language].menuTitle;
-    socialTitle.textContent = translations[language].socialTitle;
-    instaTikTokContainerTitle.textContent = translations[language].instaTikTokContainerTitle;
-
-   
+    };
+  
+    Object.entries(elements).forEach(([key, value]) => {
+      const text = translations[language][key];
+      if (!text) return;
+  
+      if (Array.isArray(value)) {
+        value.forEach(id => {
+          const element = document.getElementById(id);
+          if (element) element.textContent = text;
+        });
+      } else {
+        const element = document.getElementById(value);
+        if (element) element.textContent = text;
+      }
+    });
 }
 
 const burger = document.querySelector('.burger');
