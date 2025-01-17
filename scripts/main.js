@@ -7,6 +7,7 @@ const translations = {
       navContact: "CONTACTS",
 
       currentLang: "EN",
+      langMarkerBtnInner:"EN",
       
       about_first_text_title: "The taste is impeccable!",
       about_first_text_body: "We proudly offer you not only a variety of delicious dishes but also a unique experience that begins with the freshest ingredients and ends with masterfully prepared dishes that can satisfy even the highest gastronomic demands.",
@@ -18,6 +19,8 @@ const translations = {
 
 
       /* Food */
+
+      /* BRUNCH SALADO */
       brunchSaladoHeading: "SALTED BRUNCH",
       brunchSaladoBrusqueta: "SALMON BRUSCHETTA",
       brunchSaladoBrusquetaDesc: "Toast, salmon, cream cheese, fresh avocado, poached egg, red onion, capers with piquillo pepper sauce",
@@ -40,7 +43,7 @@ const translations = {
       brunchSaladoShakshuka: "SHAKSHUKA",
       brunchSaladoShakshukaDesc: "Two poached eggs, feta cheese, thick sauce of smoked peppers, eggplant, and tomatoes with herbs, served with sourdough bread",
 
-
+      /* BRUNCH DULCE */
       brunchDulceHeading: "SWEET BRUNCH",
       brunchDulcePancakes: "PANCAKES",
       brunchDulcePancakesDesc: "Nutella, banana, mascarpone with yogurt, caramelized nuts, seasonal fruits, powdered sugar, and vanilla ice cream",
@@ -53,6 +56,7 @@ const translations = {
       brunchDulceCerAvena: "OAT CEREAL",
       brunchDulceCerAvenaDesc:"Oatmeal cooked in milk, served with seasonal berries and fruits, and a touch of butter",
 
+      /* CREPES */
       crepesHeading: "CREPS",
       crepesSaladas:"SALTY CREPS",
       crepesSaladasSalmon: "Salmon, cream cheese, avocado, cucumber, and capers.",
@@ -61,14 +65,14 @@ const translations = {
       crepesDulcesDesc: "Nutella, seasonal fruits, banana, whipped cream, and vanilla ice cream",
       syrnyki: "SYRNYKI",
 
-      
+      /* POSTRES Y BOLLERÍA */
       postreHeading: "DESSERTS AND PASTRIES",
       postreTartasCas: "CAKES TO CHOOSE FROM",
       postrePavlova: "PAVLOVA",
       postreCruasan: "CROISSANT",
 
 
-
+      /* ESPECIALIDADES */
       especialHeading:"SPECIALTIES",
       especialCroqu: "Chicken croquettes (2 pieces)",
       especialRoastedPotat: "Roasted potato bomb stuffed with meat and served with chimichurri sauce",
@@ -79,7 +83,7 @@ const translations = {
       especialHalfChicken: "1/2 roasted chicken with roasted potatoes and rosemary",
 
 
-
+      /* ENSALADAS */
       ensaladasHeading: "SALADS",
       ensaladasCesar: "CAESAR SALAD",
       ensaladasCesarDesc:"Fresh lettuce, chicken breast, cherry tomatoes, parmesan shavings, pomegranate, croutons, and homemade Caesar dressing",
@@ -89,7 +93,7 @@ const translations = {
       ensaladasFloritaDesc: "Mixed greens, salmon, fresh avocado, beet hummus, cherry tomatoes, sun dried tomatoes, seasonal fruits, and Florita sauce",
 
         
-
+      /* PARA PICAR */
       picarHeading: "APPETIZERS",
       picarPanTomato: "Bread with tomato",
       picarBravas: "Patatas bravas",
@@ -102,7 +106,7 @@ const translations = {
       picarCeviche: "Corvina ceviche",
       picarBurrataAnch: "Burrata with anchovies and tomato",
 
-
+      /* EXTRAS */
       extrasHeading: "EXTRAS",
       extrasPoachedEgg: "Poached egg",
       extrasAguacate: "Avocado",
@@ -114,7 +118,12 @@ const translations = {
       extrasPatatas: "French fries",
 
 
+      /* BEBIDAS */
+
+
       bebidas: "DRINKS",
+
+      /* Cafés */
       cafesHeading: "Coffee",
       cafesEspresso: "Espresso",
       cafesEspressoDoble: "Double espresso",
@@ -131,7 +140,7 @@ const translations = {
       cafesLatte: "Latte",
 
 
-
+      /* Tés */
       tesHeading: "Tea",
       tesManzanilla: "Chamomile Tea",
       tesMenta: "Pennyroyal Mint",
@@ -144,7 +153,7 @@ const translations = {
       tesRooibos: "Rooibos",
       tesMatcha: "Matcha",
 
-
+      /* Zumos & Batidos de fruta */
       zumosHeading: "Fresh Juices & Smoothies",
       zumosNaranja: "Orange juice",
       zumosManzana: "Apple juice",
@@ -159,27 +168,34 @@ const translations = {
       zumosTropicalDesc: "Pineapple, pear, lemon, ginger, mango",
 
 
+      /* Aperitivos & Cócteles */
       aperitivosHeading:"Appetizers &  Cocktails",
 
 
+      /* Cervezas */
       cervezasHeading: "Beer",
       cervezasEstrella:"Estrella Damm draft beer 0,33",
       cervezasNonAlco:"Non alcoholic 0,33",
 
+
+      /* Refrescos */
       refrescosHeading: "Soft drink",
       refrescosAguaMin: "Mineral water",
       refrescosAguaGas: "Sparkling water",
       refrescosCacaolat: "ColaCao",
 
+
+      /* Vinos */
       vinosHeading: "Wines",
       vinosCopa:"Glass",
       vinosBotella: "Bottle",
 
+      /* Cavas & Champagne */
       cavasHeading:"Cavas & Champagne",
       cavasCopa:"Glass",
       cavasBotella:"Bottle",
 
-
+      /* Tragos y Chupitos */
       tragosHeading: "Drinks and Shots",
       tragosChupito: "Shot",
       tragosCopa: "Glass"
@@ -283,6 +299,8 @@ function changeLanguage(language) {
       menuTitle: "menuTitle",
       socialTitle: "socialTitle",
       instaTikTokContainerTitle: "instaTikTokContainerTitle",
+
+      langMarkerBtnInner:"langMarkerBtnInner",
 
       /* BRUNCH SALADO */
       brunchSaladoHeading: "brunchSaladoHeading",
