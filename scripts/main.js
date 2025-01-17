@@ -651,7 +651,7 @@ const translations = {
         smallNavCrepes: "МЛИНЦІ",
         smallNavEnsaladas: "САЛАТИ",
         smallNavPostre: "ДЕСЕРТИ",
-        smallNavBebidas: "НАПИТКИ",
+        smallNavBebidas: "НАПОЇ",
         smallNavEspecial:"СПЕЦІАЛЬНЕ",
 
         about_first_text_title: "Смак бездоганний!",
