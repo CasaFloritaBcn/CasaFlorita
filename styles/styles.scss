@@ -1,4 +1,4 @@
-@use 'fonts';
+/* @use 'fonts'; */
 @use 'variables';
 
 
@@ -10,6 +10,7 @@ html{
 body{
     margin: 0;
     background-color: #f7b7b1;
+    font-family: 'Lora', serif;
 }
 h1,h2,h3,h4,h5,p {
     margin: 0;
@@ -94,7 +95,7 @@ header {
 
         .langMarker{
             display: none;
-            font-family: 'Gerislan';
+            /* font-family: 'Gerislan'; */
             font-weight: bold; 
             font-size: 26px;
             letter-spacing: 1px;
@@ -121,12 +122,14 @@ header {
                 justify-content: center;
             }
             .menuLinks{
-                padding-left: 20px;
-                row-gap: 10px;
+                padding-left: 10px;
+                row-gap: 7px;
+                margin-top: -10px;
                 li{
-                    font-family: 'Gerislan';
-                    font-weight: 400; 
-                    font-size: 18px;
+                    /* font-family: 'Gerislan'; */
+                    font-weight: 600; 
+                    font-size: 15px;
+                    
                     color: #CE3939;
                 }
             }
@@ -141,9 +144,9 @@ header {
                     border-radius: 10px;
                     padding: 10px 15px;
                     button{
-                        font-family: 'Gerislan';
+                        /* font-family: 'Gerislan'; */
                         font-weight: 400; 
-                        font-size: 20px;
+                        font-size: 16px;
                         background-color: unset;
                         border: none;
                         transition:  background-color 0.25s, scale 0.25s;
@@ -165,12 +168,12 @@ header {
               list-style: none;
               padding: 2px 2px;
               margin: 0;
-              row-gap: 15px;
+              row-gap: 10px;
 
               a{
                 text-decoration: none;
-                font-size: 27px; 
-                font-family: 'Gerislan';
+                font-size: 24px; 
+                /* font-family: 'Gerislan'; */
                 font-weight: 400;
                 cursor: pointer;
                 color: #CE3939;
@@ -179,7 +182,7 @@ header {
                 li{
                   text-decoration: none;
                    
-                  font-family: 'Gerislan';
+                  /* font-family: 'Gerislan'; */
                   font-weight: 400;
                   cursor: pointer;
                   color: #992b2b;
@@ -188,6 +191,8 @@ header {
                 }
 
               }
+
+
 
             }
           
@@ -200,7 +205,7 @@ header {
               
               padding: 7px 30px;
               border-radius: 10px;
-              font-family: 'Gerislan';
+              /* font-family: 'Gerislan'; */
               font-weight: 400; 
               font-size: 20px;
               background-color: #D2797B;
@@ -213,7 +218,7 @@ header {
                 background-color: #D2797B;
                 
                 border-radius: 30px;
-                font-family: 'Gerislan';
+                /* font-family: 'Gerislan'; */
                 font-weight: 400; 
                 font-size: 20px;
                 transition: color 0.4s, background-color 0.4s;
@@ -240,9 +245,9 @@ header {
                 background-color: #E18F90;
                 padding: 7px 30px;
                 border-radius: 30px;
-                font-family: 'Gerislan';
+                /* font-family: 'Gerislan'; */
                 font-weight: 400; 
-                font-size: 35px;
+                font-size: 30px;
                 transition: color 0.4s, background-color 0.4s;
             }
             a:hover{
@@ -294,8 +299,8 @@ header {
 
                     }
                     li {
-                        font-size: 36px; 
-                        font-family: 'Gerislan';
+                        font-size: 30px; 
+                        /* font-family: 'Gerislan'; */
                         font-weight: 400;
                         cursor: pointer;
                     }
@@ -328,7 +333,7 @@ header {
                 display: flex;
                 column-gap: 4px;
                 button{
-                    font-family: 'Gerislan';
+                    /* font-family: 'Gerislan'; */
                     font-weight: 400; 
                     font-size: 20px;
                     background-color: unset;
@@ -426,14 +431,14 @@ main{
                         color: #B53226;
                         /* font-size: 40px; */
                         font-size: 3vw;
-                        font-family: 'Gerislan';
+                        /* font-family: 'Gerislan'; */
                         font-weight: 400;
                         /* max-width: 390px; */
                         
                     }
                     p{
                         margin-top: 30px;
-                        font-family: 'Gerislan';
+                        /* font-family: 'Gerislan'; */
                         /* font-size: 22px; */
                         font-size: 1.5vw;
                         color: #5B1B1B;
@@ -474,14 +479,14 @@ main{
                         color: #B53226;
                         /* font-size: 40px; */
                         font-size: 3vw;
-                        font-family: 'Gerislan';
+                        /* font-family: 'Gerislan'; */
                         font-weight: 400;
                         /* max-width: 441px; */
                         margin-left: auto;
                     }
                     p{
                         margin-top: 30px;
-                        font-family: 'Gerislan';
+                        /* font-family: 'Gerislan'; */
                         /* font-size: 22px; */
                         font-size: 1.5vw;
                         color: #5B1B1B;
@@ -526,11 +531,12 @@ main{
                 box-sizing: border-box;
                 display: flex;
                 flex-direction: column;
+                text-align: left;
             
                 h3{
                     color: #B53226;
                     font-size: 55px;
-                    font-family: 'Gerislan';
+                    /* font-family: 'Gerislan'; */
                     font-weight: bold;
                     text-align: center;
                     margin-top: 30px;
@@ -546,13 +552,18 @@ main{
                 }
                 .dishes{
                     margin-top: 20px;
+                    margin: 0 auto;
                     display: flex;
                     flex-direction: column;
-                    
+                    /* max-width: 70%; */
                     justify-content: center;
                     row-gap: 30px;
-                    .dish{
 
+                    .dish{
+                        column-gap: 40px;
+                        display: flex;
+                        justify-content: space-around;
+                        
                         .moveRight{
                             margin-right: 5px;
                         }
@@ -562,23 +573,22 @@ main{
                         .moveRightMoree{
                             margin-right: 10px;
                         }
-                        column-gap: 40px;
-                        display: flex;
-                        justify-content: center;
+                        
                         .dishData{
-                            width: 50%;
+                            width: 60%;
                             h4{
                                 color: #B53226;
                                 font-size: 35px;
-                                font-family: 'Gerislan';
+                                /* font-family: 'Gerislan'; */
                                 font-weight: bold;
                             }
                             p{
                                 margin-top: 5px;
                                 color: #B53226;
                                 font-size: 18px;
-                                font-family: 'Gerislan';
+                                /* font-family: 'Gerislan'; */
                                 font-style: italic;
+                                
                             }
 
                             ul{
@@ -586,7 +596,7 @@ main{
                                 li{
                                     color: #B53226;
                                     font-size: 18px;
-                                    font-family: 'Gerislan';
+                                    /* font-family: 'Gerislan'; */
                                     font-style: italic;
                                     margin-top: 5px;
                                     font-weight: bold;
@@ -615,6 +625,7 @@ main{
                         .price{
                             display: flex;
                             column-gap: 20px;
+                            
                             p{
                                 white-space: nowrap
                             }
@@ -622,8 +633,9 @@ main{
                         p{
                             color: #B53226;
                             font-size: 35px;
-                            font-family: 'Gerislan';
+                            /* font-family: 'Gerislan'; */
                             font-weight: bold;
+                            
                         }
                     }
                 }
@@ -635,7 +647,7 @@ main{
                         .dishData{
                             h4{
                                 font-size: 22px;
-                                font-family: 'Gerislan';
+                                /* font-family: 'Gerislan'; */
                                 font-weight: bold;
                             }
                         }
@@ -657,7 +669,7 @@ main{
             text-align: center;
             color: #B53226;
             font-size: 50px;
-            font-family: 'Gerislan';
+            /* font-family: 'Gerislan'; */
             font-weight: bold;
             text-align: center;
             margin-top: 50px;
@@ -733,7 +745,7 @@ main{
                 cursor: default;
                 h4{
                     color: #B53226;
-                    font-family: 'Gerislan';
+                    /* font-family: 'Gerislan'; */
                     font-weight: 400;
                     font-size: 45px;
                     text-align: center;
@@ -797,7 +809,7 @@ main{
                 cursor: default;
                 h4{
                     color: #B53226;
-                    font-family: 'Gerislan';
+                    /* font-family: 'Gerislan'; */
                     font-weight: 400;
                     font-size: 45px;
                     text-align: center;
@@ -1343,7 +1355,7 @@ main{
             .menu_inner{
                 .brunchSection{
                     h3{
-                        font-size: 35px;
+                        font-size: 30px;
                     }
                     hr{
                         
@@ -1357,7 +1369,7 @@ main{
                             .dishData{
                                 width: 60%;
                                 h4{
-                                    font-size: 24px;
+                                    font-size: 20px;
                                 }
                                 p{
                                     font-size: 14px;
@@ -1367,10 +1379,16 @@ main{
                                         font-size: 14px;
                                     }
                                 }
+
                             
                             }
                             p{
-                                font-size: 24px;
+                                font-size: 20px;
+                            }
+                            .price{
+                                p{
+                                    font-size: 20px;
+                                }
                             }
                             .moveRight{
                                 margin-right: 5px;
