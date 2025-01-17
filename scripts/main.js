@@ -430,6 +430,16 @@ const translations = {
         navContact: "CONTACTES",
 
         currentLang: "CA",
+        langMarkerBtnInner:"CA",
+
+        smallNavSalado: "BRUNCH SALAT",
+        smallNavDulce: "BRUNCH DOLÇ",
+        smallNavPicar: "PER PICAR",
+        smallNavCrepes: "CREPS",
+        smallNavEnsaladas: "AMANIDES",
+        smallNavPostre: "POSTRES",
+        smallNavBebidas: "BEGUDES",
+        smallNavEspecial:"ESPECIALITATS",
 
         about_first_text_title: "El gust és impecable!",
         about_first_text_body: "Amb orgullus us oferim no només una varietat de plats deliciosos, sinó també una experiència única que comença amb els ingredients més frescos i acaba amb plats magistralment preparats que poden satisfer fins i tot els requisits gastronòmics més alts.",
@@ -437,7 +447,190 @@ const translations = {
         about_second_text_body: "L'interior del nostre restaurant és una combinació d'elegància i comoditat. Cada element de la decoració ha estat triat amb amor i atenció als detalls, creant una atmosfera on es vol passar temps amb plaer. Els colors càlids, els mobles elegants i la il·luminació suau creen l'entorn perfecte per a trobades agradables i sopars refinats.",
         menuTitle: "CARTA",
         socialTitle: "Poseu-vos en contacte amb nosaltres de la manera que us sigui més còmoda",
-        instaTikTokContainerTitle: "Les nostres xarxes socials"
+        instaTikTokContainerTitle: "Les nostres xarxes socials",
+
+      /* Food */
+
+      /* BRUNCH SALADO */ 
+      brunchSaladoHeading: "BRUNCH SALAT",
+      brunchSaladoBrusqueta: "BRUSQUETA DE SALMÓ",
+      brunchSaladoBrusquetaDesc: "Torrada, salmó, formatge crema, alvocat, ou poché, ceba vermella, tàperes amb salsa de pebrots del piquillo",
+      brunchSaladoTurkish: "OUS TURCS",
+      brunchSaladoTurkishDesc:"Iogurt grec amb all i suc de llimona, dos ous poché, tomàquets cherry confitats, ceba cruixent, mantega de xilis chipotle amb una torrada de massa mare", 
+      brunchSaladoFlorBreakf:"ESMORZAR FLORITA",
+      brunchSaladoFlorBreakfDesc:"Dos ous fregits o remenats, bacó, fingers de pollastre, tomàquet al forn, xampinyons, mongetes amb una torrada de massa mare",
+      brunchSaladoOslo:"OSLO BENEDICT",
+      brunchSaladoOsloDesc:"Pa brioix, salmó gravlax, alvocat fresc, dos ous poché, espàrrecs i salsa holandesa",
+      brunchSaladoWaffle:"WAFFLE BENEDICT",
+      brunchSaladoWaffleDesc:"Gofre de carbassó, salmó gravlax, alvocat flamejat, ou poché, llavors  de carbassa i salsa holandesa",
+      brunchSaladoPorkBened:"PULLED PORK BENEDICT",
+      brunchSaladoPorkBenedDesc:"Pa brioix, carn cuita a foc lent, dos ous poché, shimiji saltats, espinacs baby i salsa holandesa",
+      brunchSaladoAvocToast: "TORRADA D'ALVOCAT",
+      brunchSaladoAvocToastDesc: "Alvocat fresc sobre pa de massa mare, ou poché, formatge feta esmicolat, tomàquets cherry, rave, magrana, llavors de carbassa, suc de llimona i vinagre balsàmic",
+      brunchSaladoSandwPork:"SÀNDVITX DE PULLED PORK",
+      brunchSaladoSandwPorkDesc: "Pa de vidre torrat, carn cuita al foc lent, salsa chimichurri, espinacs baby, ceba i Portobello saltats, cogombret agredolç acompanyat de moniato fregit",
+      brunchSaladoSandwPollo: "SÀNDVITX DE POLLASTRE",
+      brunchSaladoSandwPolloDesc: "Pa de vidre torrat, pollastre cruixent, coleslaw cremós, formatge chedder, salsa d'all groc acompanyat de moniato fregit",
+      brunchSaladoShakshuka: "SHAKSHUKA",
+      brunchSaladoShakshukaDesc: "Dos ous poché, formatge feta, salsa espessa de pebrots fumats vermells, verds, albergínies i tomàquets, herbes, servit amb pa massa mare",
+
+      /* BRUNCH DULCE */
+      brunchDulceHeading: "BRUNCH DOLÇ",
+      brunchDulcePancakes: "PANCAKES",
+      brunchDulcePancakesDesc: "Nutella, plàtan, mascarpone amb iogurt, nous caramel·litzades, fruites de temporada, sucre llustre i gelat de vainilla",
+      brunchDulceFrToast: "FRENCH TOAST",
+      brunchDulceFrToastDesc: "Pa de brioix, mascarpone de vainilla i taronja, plàtan caramel·litzat, xarop d'auró, fruites de temporada, pistatxos picats i gelat de vainilla",
+      brunchDulceGrBowl: "GRANOLA BOWL",
+      brunchDulceGrBowlDesc: "Granola casolana, mascarpone amb iogurt, fruites de temporada, compota de fruits vermells i coco torrat",
+      brunchDulceTropBowl: "TROPICAL BOWL",
+      brunchDulceTropBowlDesc: "Iogurt casolà, granola casolana, maracuiya, coco i fruites de temporada",
+      brunchDulceCerAvena: "CEREAL DE CIVENA",
+      brunchDulceCerAvenaDesc:"Civada cuita en llet, amb baies i fruites de temporada i mantega",
+
+      /* CREPES */
+      crepesHeading: "CREPS",
+      crepesSaladas:"CREPS SALADES",
+      crepesSaladasSalmon: "Salmó gravlax, formatge crema, alvocat, cogombre i tàperes",
+      crepesSaladasSetas: "Bolets, espinacs saltats, formatge mozzarella, ou fregit, tomàquet cherry i rave",
+      crepesDulces: "CREPS DOLÇOS",
+      crepesDulcesDesc: "Nutella, fruites de temporada, plàtan, nata muntada i gelat de vainilla",
+      syrnyki: "SYRNYKI",
+
+      /* POSTRES Y BOLLERÍA */
+      postreHeading: "POSTRES I BRIOIXERIA",
+      postreTartasCas: "PASTISSOS CASOLANS",
+      postrePavlova: "PAVLOVA",
+      postreCruasan: "CROISSANT",
+
+
+      /* ESPECIALIDADES */
+      especialHeading:"ESPECIALITATS",
+      especialCroqu: "Croquetes de pollastre 2 uts",
+      especialRoastedPotat: "Bomba de patata rostida farcida de carn amb chimichurri",
+      especialRoastedPotatSalm: "Bomba de patata rostida farcida de salmó amb anet",
+      especialRisotto: "Risotto de bolets",
+      especialSalmonVerd: "Salmó al forn amb verdures",
+      especialBeefCheek: "Carrillera al vi amb puré de patata",
+      especialHalfChicken: "1/2 de pollastre al forn amb patata rostida i romaní",
+
+
+      /* ENSALADAS */
+      ensaladasHeading: "AMANIDES",
+      ensaladasCesar: "AMANIDA CÈSAR",
+      ensaladasCesarDesc:"Enciam fresc, pit de pollastre, tomàquets cherry, escates de parmesà, magrana, crostons i salsa Cèsar casolana",
+      ensaladasBurrata:"AMANIDA DE BURRATA",
+      ensaladasBurrataDesc: "Tomàquet heirloom amb pesto, burrata, nous torrades i crema balsàmica",
+      ensaladasFlorita: "AMANIDA LA FLORITA",
+      ensaladasFloritaDesc: "Amanida mixta, salmó, alvocat fresc, hummus de remolatxa, tomàquet cherry, tomàquet sec, fruites de temporada i salsa Florita",
+
+        
+      /* PARA PICAR */
+      picarHeading: "PER PICAR",
+      picarPanTomato: "Pa amb tomàquet",
+      picarBravas: "Patates braves",
+      picarBoniato: "Moniato fregit amb salsa secreta del xef",
+      picarGanush: "Baba Ganush amb pa jala casolà, tomàquets cherry, mantega de xilis chiipotle i magrana",
+      picarNachos: "Nachos amb guacamole, piquillo de gallo i salsa cheddar",
+      picarHummus: "Hummus tradicional i hummus de remolatxa amb bolets saltats i pa jala casolà",
+      picarCarpachoSalm: "Carpaccio de salmó",
+      picarTartarSalm: "Tàrtar de salmó i alvocat",
+      picarCeviche: "Ceviche de corvina",
+      picarBurrataAnch: "Burrata amb anxoves i tomàquet",
+
+      /* EXTRAS */
+      extrasHeading: "EXTRES",
+      extrasPoachedEgg: "Ou poché",
+      extrasAguacate: "Alvocat",
+      extrasSalmon: "Salmó gravlax",
+      extrasBacon: "Bacó",
+      extrasPan: "Pa de massa mare",
+      extrasPanJala: "Pa Jala casolà",
+      extrasFeta: "Formatge feta",
+      extrasPatatas: "Patates fregides",
+
+
+      /* BEBIDAS */
+
+
+      bebidas: "BEGUDES",
+
+      /* Cafés */
+      cafesHeading: "Cafès",
+      cafesEspresso: "Espresso",
+      cafesEspressoDoble: "Doble espresso",
+      cafesCortado: "Tallat",
+      cafesMilk: "Cafè amb llet",
+      cafesCapuchino: "Caputxino",
+      cafesVienes: "Vienès",
+      cafesCarajillo: "Carajillo",
+      cafesShaquerato: "Shaquerato",
+      cafesAffogato: "Affogato",
+      cafesIrlandes: "Cafè irlandès",
+      cafesWhite: "Flat White",
+      cafesAmericano: "Americà",
+      cafesLatte: "Cafè Latte",
+
+
+      /* Tés */
+      tesHeading: "Tés",
+      tesManzanilla: "Camamilla",
+      tesMenta: "Menta poleo",
+      tesRotafía: "Rotafía",
+      tesVerde: "Té verd",
+      tesNegro: "Té negre",
+      tesRegamint: "Regamint",
+      tesPiruleta: "Infusió piruleta",
+      tesFrutas: "Fruits del bosc",
+      tesRooibos: "Rooibos",
+      tesMatcha: "Matcha",
+
+      /* Zumos & Batidos de fruta */
+      zumosHeading: "Sucs & Batuts de fruita",
+      zumosNaranja: "Taronja natural",
+      zumosManzana: "Poma natural",
+      zumosPepino: "Cogombre amb api",
+      zumosZanahoria: "Pastanaga i poma",
+      zumosFresa:"Maduixa i fruits del bosc",
+      zumosAntiox: "Green Antiox",
+      zumosAntioxDesc: "Poma, espinacs, bròquil, cogombre i menta",
+      zumosPas:"Passió",
+      zumosPasDesc:"Remolatxa, fruits vermells, poma i préssec",
+      zumosTropical: "Tropical",
+      zumosTropicalDesc: "Pinya, pera, llimona, gingebre i mango",
+
+
+      /* Aperitivos & Cócteles */
+      aperitivosHeading:"Aperitius i Còcteles",
+
+
+      /* Cervezas */
+      cervezasHeading: "Cerveses",
+      cervezasEstrella:"Estrella Damm de barril 0,33",
+      cervezasNonAlco:"Cervesa sense alcohol 0,33",
+
+
+      /* Refrescos */
+      refrescosHeading: "Refrescos",
+      refrescosAguaMin: "Aigua mineral",
+      refrescosAguaGas: "Aigua amb gas",
+      refrescosCacaolat: "Cacaolat",
+
+
+      /* Vinos */
+      vinosHeading: "Vins",
+      vinosCopa:"Copa",
+      vinosBotella: "Ampolla",
+
+      /* Cavas & Champagne */
+      cavasHeading:"Caves i Champagne",
+      cavasCopa:"Copa",
+      cavasBotella:"Ampolla",
+
+      /* Glops i Xopets */
+      tragosHeading: "Glops i Xopets",
+      tragosChupito: "Xarrup",
+      tragosCopa: "Copa"
+
 
         
         
@@ -450,6 +643,16 @@ const translations = {
         navContact: "КОНТАКТИ",
 
         currentLang: "UA",
+        langMarkerBtnInner:"UA",
+
+        smallNavSalado: "БРАНЧ",
+        smallNavDulce: "СОЛОДКИЙ БРАНЧ",
+        smallNavPicar: "НА ПЕРЕКУС",
+        smallNavCrepes: "МЛИНЦІ",
+        smallNavEnsaladas: "САЛАТИ",
+        smallNavPostre: "ДЕСЕРТИ",
+        smallNavBebidas: "НАПИТКИ",
+        smallNavEspecial:"СПЕЦІАЛЬНЕ",
 
         about_first_text_title: "Смак бездоганний!",
         about_first_text_body: "Ми з гордістю пропонуємо вам не лише різноманітні та смачні страви, але й унікальний досвід, який починається з найсвіжіших інгредієнтів і завершується майстерно приготованими стравами, здатними задовольнити навіть найвищі гастрономічні вимоги.",
@@ -457,7 +660,191 @@ const translations = {
         about_second_text_body: "Інтер'єр нашого ресторану — це поєднання елегантності та затишку. Кожен елемент декору був вибраний з любов'ю та увагою до деталей, створюючи атмосферу, в якій хочеться провести час із задоволенням. Теплі кольори, стильні меблі та м'яке освітлення створюють ідеальну обстановку для приємних зустрічей і вишуканих вечерь.",
         menuTitle: "МЕНЮ",
         socialTitle: "Зв'яжіться з нами будь-яким зручним способом",
-        instaTikTokContainerTitle: "Наші соціальні мережі"
+        instaTikTokContainerTitle: "Наші соціальні мережі",
+
+
+        /* Food */
+
+        /* BRUNCH SALADO */
+        brunchSaladoHeading: "БРАНЧ",
+        brunchSaladoBrusqueta: "БРУСКЕТА З ЛОСОСЕМ",
+        brunchSaladoBrusquetaDesc: "Тост,лосось, вершковий сир, авокадо, яйце пашот, червона цибуля, каперси з соусом перець пікільо",
+        brunchSaladoTurkish: "ТУРЕЦЬКІ ЯЙЦЯ",
+        brunchSaladoTurkishDesc:"Грецький йогурт з часником і лимонним соком, два яйця пашот, конфітовані чері, хрустка цибуля, масло з чіпотлє-чилі , скибці хліба на заквасці", 
+        brunchSaladoFlorBreakf:"СНІДАНОК ФЛОРІТА",
+        brunchSaladoFlorBreakfDesc:"Два яйця (смажені або омлет), бекон, курка, запечені помідори, печериці, квасоля та тост на хлібній заквасці",
+        brunchSaladoOslo:"ОСЛО БЕНЕДИКТ",
+        brunchSaladoOsloDesc:"Хліб бріош, лосось гравлакс, авокадо, два яйця пашот, спаржа і голландський соус",
+        brunchSaladoWaffle:"ВАФЕЛЬ БЕНЕДИКТ",
+        brunchSaladoWaffleDesc:"Кабачкова вафля, гравлакс з лосося, авокадо, яйце пашот, насіння гарбуза і голландський соус ",
+        brunchSaladoPorkBened:"PULLED PORK БЕНЕДИКТ",
+        brunchSaladoPorkBenedDesc:"Хліб бріош, тушковане м'ясо, яйце пашот, смажені шимідзі,бебі  шпинат і голландський соус ",
+        brunchSaladoAvocToast: "ТОСТ З АВОКАДО",
+        brunchSaladoAvocToastDesc: "Свіжий авокадо на хлібі з закваски, яйце пашот, фета сир, помідори черрі, редька, гранат, гарбузове насіння, сік лимона і бальзамічний соус",
+        brunchSaladoSandwPork:"СЕНДВІЧ PULLED PORK",
+        brunchSaladoSandwPorkDesc: "Підсмажений хліб, тушковане м'ясо, соус чімічуррі, молодий шпинат, смажені гриби , кисло-солодкий огірок, поданий з смаженим бататом",
+        brunchSaladoSandwPollo: "СЕНДВІЧ З КУРКОЮ",
+        brunchSaladoSandwPolloDesc: "Підсмажений хліб, хрустка курка, вершковий капустяний салат, сир чеддер, жовтий соус чилі та смажений солодкий батат",
+        brunchSaladoShakshuka: "ШАКШУКА",
+        brunchSaladoShakshukaDesc: "Два яйця пашот, сир фета, густий соус з копченого червоного і зеленого перцю, баклажани і помідори, зелень, подається з хлібом на заквасці",
+
+        /* BRUNCH DULCE */
+        brunchDulceHeading: "СОЛОДКИЙ БРАНЧ",
+        brunchDulcePancakes: "МЛИНЦІ",
+        brunchDulcePancakesDesc: "Нутелла, банан, маскарпоне з йогуртом, горіхи карамелізовані, сезонні фрукти, цукрова пудра та ванільне морозиво",
+        brunchDulceFrToast: "ФРАНЦУЗЬКИЙ ТОСТ",
+        brunchDulceFrToastDesc: "Хліб бріош, маскарпоне з ваніллю та апельсином, карамелізований банан, кленовий сироп, сезонні фрукти, подрібнені фісташки і ванільне морозиво",
+        brunchDulceGrBowl: "BOWL ГРАНОЛА",
+        brunchDulceGrBowlDesc: "Домашня гранола, маскарпоне з йогуртом, сезонні фрукти, компот із червоних ягід і підсмажений кокос",
+        brunchDulceTropBowl: "ТРОПІЧНА ЧАША",
+        brunchDulceTropBowlDesc: "Домашній йогурт, домашня гранола, маракуйя, підсмажений кокос і сезонні фрукти",
+        brunchDulceCerAvena: "ВІВСЯНКА",
+        brunchDulceCerAvenaDesc:"Вівсяна каша зварена на молоці з ягодами і сезонними фруктами",
+
+        /* CREPES */
+        crepesHeading: "МЛИНЦІ",
+        crepesSaladas:"СОЛОНІ МЛИНЦІ",
+        crepesSaladasSalmon: "Лосось, вершковий сир, авокадо, огірок і каперси",
+        crepesSaladasSetas: "Гриби, обсмажений шпинат, тертий сир моцарелла, смажене яйце, помідори черрі і редька",
+        crepesDulces: "СОЛОДКІ МЛИНИІ",
+        crepesDulcesDesc: "Нутелла, сезонні фрукти, банан, збиті вершки та ванільне морозиво",
+        syrnyki: "СИРНИКИ",
+
+        /* POSTRES Y BOLLERÍA */
+        postreHeading: "ДЕСЕРТИ ТА ВИПІЧКА",
+        postreTartasCas: "ДОМАШНІ ТОРТИ",
+        postrePavlova: "ПАВЛОВА",
+        postreCruasan: "КРУАСАН",
+
+
+        /* ESPECIALIDADES */
+        especialHeading:"СМАКОЛИКИ ФЛОРІТИ",
+        especialCroqu: "Курячі крокети 2 одиниці",
+        especialRoastedPotat: "Смажена картопляна бомбочка з начинкою м'яса та соусом  чимічуррі",
+        especialRoastedPotatSalm: "Смажена картопляна бомбочка з начинкою лосось та кропом",
+        especialRisotto: "Різотто з грибами",
+        especialSalmonVerd: "Запечений лосось з овочами",
+        especialBeefCheek: "Теляча щока  у вині з картопляним пюре",
+        especialHalfChicken: "1/2 запеченої курки з запеченою картоплею  і розмарином",
+
+
+        /* ENSALADAS */
+        ensaladasHeading: "САЛАТИ",
+        ensaladasCesar: "САЛАТ ЦЕЗАР",
+        ensaladasCesarDesc:"Листя салату, куряча грудка, помідори черрі, пластівці Пармезану , гранат, грінки та соус Цезар домашній",
+        ensaladasBurrata:"САЛАТ БУРРАТА",
+        ensaladasBurrataDesc: "Помідори heirloom із песто, буррата, смажені горіхи та бальзамічний крем",
+        ensaladasFlorita: "САЛАТ ФЛОРІТА",
+        ensaladasFloritaDesc: "Мікс листя салату, лосось, авокадо, буряковий хумус, помідори черрі, в'ялені помідори, сезонні фрукти  і соус Florita",
+
+          
+        /* PARA PICAR */
+        picarHeading: "НА ПЕРЕКУС",
+        picarPanTomato: "Хліб з помідорами",
+        picarBravas: "Смажена картопля",
+        picarBoniato: "Смажений батат з секретним соусом шефа",
+        picarGanush: "Баба Гануш з домашнім хлібом хала , помідорами, чипотле-маслом та гранатом",
+        picarNachos: "Начос з гуакамоле, піко де гальо та сирним соусом чеддер",
+        picarHummus: "Хумус (традиційний та буряковий) з смаженими грибами та домашнім хлібoм xала",
+        picarCarpachoSalm: "Карпачо з лосося",
+        picarTartarSalm: "Тартар із лосося та авокадо",
+        picarCeviche: "Севіче з корвіни",
+        picarBurrataAnch: "Буррата з анчоусами та помідорами",
+
+        /* ДОПОВНЕННЯ */
+        extrasHeading: "ДОПОВНЕННЯ",
+        extrasPoachedEgg: "Яйце пашот",
+        extrasAguacate: "Авокадо",
+        extrasSalmon: "Лосось",
+        extrasBacon: "Бекон",
+        extrasPan: "Хліб",
+        extrasPanJala: "Хліб Jala",
+        extrasFeta: "Сир фета",
+        extrasPatatas: "Картопля  фрі",
+
+
+        /* BEBIDAS */
+
+
+        bebidas: "НАПОЇ",
+
+        /* Cafés */
+        cafesHeading: "Кава",
+        cafesEspresso: "Еспресо",
+        cafesEspressoDoble: "Подвійний еспресо",
+        cafesCortado: "Кортадо",
+        cafesMilk: "Кава з молоком",
+        cafesCapuchino: "Капучино",
+        cafesVienes: "Віденська кава",
+        cafesCarajillo: "Каррахільо",
+        cafesShaquerato: "Шакерато",
+        cafesAffogato: "Аффогато",
+        cafesIrlandes: "Кава по-ірландськи",
+        cafesWhite: "Флет Уайт",
+        cafesAmericano: "Американо",
+        cafesLatte: "Лате",
+
+
+        /* Tés */
+        tesHeading: "ЧАЇ",
+        tesManzanilla: "Ромашковий чай",
+        tesMenta: "М'ятний чай",
+        tesRotafía: "Rotafía",
+        tesVerde: "Зелений чай",
+        tesNegro: "Чорний чай",
+        tesRegamint: "Regamint",
+        tesPiruleta: "Інфузія Цукерка",
+        tesFrutas: "Чай із лісових ягід",
+        tesRooibos: "Ройбос",
+        tesMatcha: "Матча",
+
+        /* Zumos & Batidos de fruta */
+        zumosHeading: "СОКИ ТА ФРУКТОВІ СМУЗІ",
+        zumosNaranja: "Натуральний апельсиновий сік",
+        zumosManzana: "Натуральний яблучний сік",
+        zumosPepino: "Огірок з селерою",
+        zumosZanahoria: "Морква та яблуко (смузі)",
+        zumosFresa:"Полуниця та ягоди (смузі)",
+        zumosAntiox: "Green Antiox",
+        zumosAntioxDesc: "Яблуко, шпинат, броколі, огірок і м'ятаa",
+        zumosPas:"Pasión",
+        zumosPasDesc:"Буряк, ягоди, яблуко та персик",
+        zumosTropical: "Tropical",
+        zumosTropicalDesc: "Ананас, груша, лимон, імбир і манго",
+
+
+        /* Aperitivos & Cócteles */
+        aperitivosHeading:"Аперитиви та коктейлі",
+
+
+        /* Cervezas */
+        cervezasHeading: "Пиво",
+        cervezasEstrella:"Дамм зірка на крані 0,33",
+        cervezasNonAlco:"Безалкогольний 0,33",
+
+
+        /* Refrescos */
+        refrescosHeading: "Безалкогольні напої",
+        refrescosAguaMin: "Hегазована вода",
+        refrescosAguaGas: "Газована вода",
+        refrescosCacaolat: "Coca cola",
+
+
+        /* Vinos */
+        vinosHeading: "Вина",
+        vinosCopa:"Кубок",
+        vinosBotella: "Пляшка",
+
+        /* Cavas & Champagne */
+        cavasHeading:"Кава і Шампанське",
+        cavasCopa:"Кубок",
+        cavasBotella:"Пляшка",
+
+        /* Tragos y Chupitos */
+        tragosHeading: "Напої та шоти",
+        tragosChupito: "Постріл",
+        tragosCopa: "Кубок"
+
        
     },
     ru: {
@@ -644,7 +1031,7 @@ const translations = {
 
       /* Cervezas */
       cervezasHeading: "ПИВО",
-      cervezasEstrella:"Estrella Damm de barill 0,33",
+      cervezasEstrella:"Estrella Damm 0,33",
       cervezasNonAlco:"Безалкогольное пиво  0,33",
 
 
