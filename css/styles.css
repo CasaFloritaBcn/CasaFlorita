@@ -473,6 +473,7 @@ main .menuSection .menu_inner .brunchSection {
   display: flex;
   flex-direction: column;
   text-align: left;
+  padding: 0;
 }
 main .menuSection .menu_inner .brunchSection h3 {
   color: #B53226;
@@ -748,22 +749,22 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
     font-size: 27px;
   }
   header .header_container .main_nav nav ul {
-    column-gap: 20px;
+    column-gap: 16px;
   }
   header .header_container .main_nav nav ul li {
-    font-size: 27px;
+    font-size: 22px;
   }
   header .header_container .main_nav .nav_inicio {
-    column-gap: 37px;
+    column-gap: 30px;
   }
   header .header_container .main_nav .logo {
     width: 140px;
   }
   header .header_container .main_nav .nav_carta {
-    column-gap: 37px;
+    column-gap: 30px;
   }
   header .header_container .language_nav .button_container button {
-    font-size: 16px;
+    font-size: 13px;
   }
   main .aboutSection .about_inner .about_first {
     padding: 0 50px;
@@ -782,6 +783,21 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   }
   main .aboutSection .about_inner .about_second .about_second_text p {
     font-size: 18px;
+  }
+  main .menuSection .menu_inner .brunchSection h3 {
+    font-size: 50px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .dishData h4 {
+    font-size: 27px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .dishData p {
+    font-size: 12px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish p {
+    font-size: 25px;
+  }
+  main .menuSection .menu_inner .brunchSection .dishes .dish .price p {
+    font-size: 25px;
   }
   main .menuSection .menu_inner .menu_buttons {
     row-gap: 20px;
@@ -893,6 +909,9 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   main .aboutSection .about_inner .about_second .about_second_text p {
     font-size: 14px;
     margin-top: 15px;
+  }
+  main .menuSection .menu_inner {
+    column-count: 1;
   }
   main .menuSection .menu_inner h3 {
     font-size: 70px;
@@ -1112,6 +1131,9 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   main .menuSection {
     background-image: url("../images/carta_small_background.webp");
   }
+  main .menuSection .menu_inner .brunchSection {
+    padding: 0 5px;
+  }
   main .menuSection .menu_inner .brunchSection h3 {
     font-size: 30px;
   }
@@ -1120,6 +1142,15 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   }
   main .menuSection .menu_inner .brunchSection .dishes .dish {
     column-gap: 15px;
+    /*                             .moveRight{
+                                    margin-right: 5px;
+                                }
+                                .moveRightMore{
+                                    margin-right: 7px;
+                                }
+                                .moveRightMoree{
+                                    margin-right: 10px;
+                                } */
   }
   main .menuSection .menu_inner .brunchSection .dishes .dish .dishData {
     width: 60%;
@@ -1138,15 +1169,6 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   }
   main .menuSection .menu_inner .brunchSection .dishes .dish .price p {
     font-size: 20px;
-  }
-  main .menuSection .menu_inner .brunchSection .dishes .dish .moveRight {
-    margin-right: 5px;
-  }
-  main .menuSection .menu_inner .brunchSection .dishes .dish .moveRightMore {
-    margin-right: 7px;
-  }
-  main .menuSection .menu_inner .brunchSection .dishes .dish .moveRightMoree {
-    margin-right: 10px;
   }
   main .contactsSection .contacts_inner .upper_decoration {
     padding-top: 20px;
