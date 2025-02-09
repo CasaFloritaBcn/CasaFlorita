@@ -6,6 +6,16 @@ const translations = {
       navMenu: "MENU",
       navContact: "CONTACTS",
 
+      horario:"Schedule",
+
+      monday:"Monday",
+      tuesday:"Tuesday",
+      wednesday:"Wednesday",
+      thursday:"Thursday",
+      friday:"Friday",
+      saturday:"Saturday",
+      sunday:"Sunday",
+
       smallNavSalado: "SALTED BRUNCH",
       smallNavDulce: "SWEET BRUNCH",
       smallNavPicar: "APPETIZERS",
@@ -216,6 +226,17 @@ const translations = {
         navAbout: "NOSOTROS",
         navMenu: "CARTA",
         navContact: "CONTACTOS",
+
+        horario:"Horario",
+
+
+        monday:"Lunes",
+        tuesday:"Martes",
+        wednesday:"Miércoles",
+        thursday:"Jueves",
+        friday:"Viernes",
+        saturday:"Sábado",
+        sunday:"Domingo",
 
         currentLang: "ES",
         langMarkerBtnInner:"ES",
@@ -428,6 +449,16 @@ const translations = {
         navAbout: "NOSALTRES",
         navMenu: "CARTA",
         navContact: "CONTACTES",
+
+        horario:"Horari",
+
+        monday:"Dilluns",
+        tuesday:"Dimarts",
+        wednesday:"Dimecres",
+        thursday:"Dijous",
+        friday:"Divendres",
+        saturday:"Dissabte",
+        sunday:"Diumenge",
 
         currentLang: "CA",
         langMarkerBtnInner:"CA",
@@ -642,6 +673,16 @@ const translations = {
         navMenu: "МЕНЮ",
         navContact: "КОНТАКТИ",
 
+        horario:"Розклад",
+
+        monday:"Понеділок",
+        tuesday:"Вівторок",
+        wednesday:"Середа",
+        thursday:"Четвер",
+        friday:"П'ятниця",
+        saturday:"Субота",
+        sunday:"Неділя",
+
         currentLang: "UA",
         langMarkerBtnInner:"UA",
 
@@ -853,6 +894,16 @@ const translations = {
         navAbout: "О НАС",
         navMenu: "МЕНЮ",
         navContact: "КОНТАКТЫ",
+
+        horario:"Расписание",
+
+        monday:"Понедельник",
+        tuesday:"Вторник",
+        wednesday:"Среда",
+        thursday:"Четверг",
+        friday:"Пятница",
+        saturday:"Суббота",
+        sunday:"Воскресенье",
 
         currentLang: "RU",
         langMarkerBtnInner:"RU",
@@ -1079,6 +1130,17 @@ function changeLanguage(language) {
       menuTitle: "menuTitle",
       socialTitle: "socialTitle",
       instaTikTokContainerTitle: "instaTikTokContainerTitle",
+
+      horario:"horarioTitle",
+
+      monday: "dayMonday",
+      tuesday: "dayTuesday",
+      wednesday: "dayWednesday",
+      thursday: "dayThursday",
+      friday: "dayFriday",
+      saturday: "daySaturday",
+      sunday: "daySunday",
+
 
       langMarkerBtnInner:"langMarkerBtnInner",
 

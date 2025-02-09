@@ -676,6 +676,21 @@ main .contactsSection .contacts_inner .social .socialIconsContainer img:hover {
 main .contactsSection .contacts_inner .social .socialIconsContainer img:active {
   scale: 0.99;
 }
+main .contactsSection .contacts_inner .horarioContainer {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+main .contactsSection .contacts_inner .horarioContainer article {
+  display: flex;
+  column-gap: 100px;
+  margin-top: 10px;
+}
+main .contactsSection .contacts_inner .horarioContainer article p {
+  font-size: 30px;
+  color: #B53226;
+  text-align: right;
+}
 main .contactsSection .contacts_inner .mapContainer {
   margin: 50px auto 0px auto;
   display: flex;
@@ -820,6 +835,9 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   main .contactsSection .contacts_inner .social .socialIconsContainer img {
     width: 90px;
   }
+  main .contactsSection .contacts_inner .horarioContainer article p {
+    font-size: 24px;
+  }
   main .contactsSection .contacts_inner .mapContainer {
     max-width: 700px;
   }
@@ -952,6 +970,9 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   main .contactsSection .contacts_inner .social .socialIconsContainer .gmail {
     width: 90px;
   }
+  main .contactsSection .contacts_inner .horarioContainer article p {
+    font-size: 24px;
+  }
   main .contactsSection .contacts_inner .mapContainer {
     margin: 30px auto 0px auto;
     max-width: 500px;
@@ -1054,6 +1075,9 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   }
   main .contactsSection .contacts_inner .social .socialIconsContainer .gmail {
     width: 65px;
+  }
+  main .contactsSection .contacts_inner .horarioContainer article p {
+    font-size: 24px;
   }
   main .contactsSection .contacts_inner .mapContainer {
     max-width: 400px;
@@ -1196,6 +1220,12 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
   }
   main .contactsSection .contacts_inner .social .socialIconsContainer img {
     width: 50px;
+  }
+  main .contactsSection .contacts_inner .horarioContainer article {
+    column-gap: 30px;
+  }
+  main .contactsSection .contacts_inner .horarioContainer article p {
+    font-size: 18px;
   }
   main .contactsSection .contacts_inner .mapContainer {
     max-width: 350px;

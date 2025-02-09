@@ -775,6 +775,23 @@ main{
                 }
             }
 
+            .horarioContainer{
+                width: fit-content;
+                margin: 0 auto;
+                margin-top: 40px;
+                article{
+                    display: flex;
+                    column-gap: 100px;
+                    margin-top: 10px;
+                  
+                    p{
+                        font-size: 30px;
+                        color: #B53226;
+                        text-align: right;
+                    }
+                }
+            }
+
             .mapContainer{
                 
                 margin: 50px auto 0px auto;
@@ -983,6 +1000,13 @@ main{
                         }
                     }
                 }
+                .horarioContainer{
+                    article{
+                        p{
+                            font-size: 24px;
+                        }
+                    }
+                }
                 .mapContainer{
                     
                     max-width: 700px;
@@ -1151,6 +1175,13 @@ main{
                         }
                     }
                 }
+                .horarioContainer{
+                    article{
+                        p{
+                            font-size: 24px;
+                        }
+                    }
+                }
                 .mapContainer{
                     margin: 30px auto 0px auto;
                     max-width: 500px;
@@ -1278,6 +1309,13 @@ main{
                         }
                         .gmail{
                             width: 65px;
+                        }
+                    }
+                }
+                .horarioContainer{
+                    article{
+                        p{
+                            font-size: 24px;
                         }
                     }
                 }
@@ -1463,6 +1501,15 @@ main{
                         }
                         img{
                             width: 50px;
+                        }
+                    }
+                }
+                .horarioContainer{
+                    article{
+                        column-gap: 30px;
+
+                        p{
+                            font-size:18px;
                         }
                     }
                 }
