@@ -778,16 +778,16 @@ main{
             .horarioContainer{
                 width: fit-content;
                 margin: 0 auto;
-                margin-top: 40px;
+                margin-top: 20px;
+                text-align: left;
+                display: flex;
+                gap: 20px;
                 article{
-                    display: flex;
-                    column-gap: 100px;
-                    margin-top: 10px;
-                  
                     p{
+                        margin-top: 10px;
                         font-size: 30px;
                         color: #B53226;
-                        text-align: right;
+                       
                     }
                 }
             }
@@ -1509,7 +1509,7 @@ main{
                         column-gap: 30px;
 
                         p{
-                            font-size:18px;
+                            font-size:16px;
                         }
                     }
                 }

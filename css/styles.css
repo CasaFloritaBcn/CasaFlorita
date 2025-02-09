@@ -679,17 +679,15 @@ main .contactsSection .contacts_inner .social .socialIconsContainer img:active {
 main .contactsSection .contacts_inner .horarioContainer {
   width: fit-content;
   margin: 0 auto;
-  margin-top: 40px;
-}
-main .contactsSection .contacts_inner .horarioContainer article {
+  margin-top: 20px;
+  text-align: left;
   display: flex;
-  column-gap: 100px;
-  margin-top: 10px;
+  gap: 20px;
 }
 main .contactsSection .contacts_inner .horarioContainer article p {
+  margin-top: 10px;
   font-size: 30px;
   color: #B53226;
-  text-align: right;
 }
 main .contactsSection .contacts_inner .mapContainer {
   margin: 50px auto 0px auto;
@@ -1225,7 +1223,7 @@ main .contactsSection .contacts_inner .instaTikTokContainer .instaTikTokIconsCon
     column-gap: 30px;
   }
   main .contactsSection .contacts_inner .horarioContainer article p {
-    font-size: 18px;
+    font-size: 16px;
   }
   main .contactsSection .contacts_inner .mapContainer {
     max-width: 350px;
