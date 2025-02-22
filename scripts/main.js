@@ -98,7 +98,7 @@ const translations = {
       especialRoastedPotatSalm: "Roasted potato bomb stuffed with salmon and dill",
       especialRisotto: "Mushroom risotto",
       especialSalmonVerd: "Oven-baked salmon with vegetables",
-      especialBeefCheek: "Beef cheek in wine sauce with mashed potatoes",
+      especialBeefCheek: "Pork cheek in wine sauce with mashed potatoes",
       especialHalfChicken: "1/2 roasted chicken with roasted potatoes and rosemary",
 
 
@@ -765,7 +765,7 @@ const translations = {
         especialRoastedPotatSalm: "Смажена картопляна бомбочка з начинкою лосось та кропом",
         especialRisotto: "Різотто з грибами",
         especialSalmonVerd: "Запечений лосось з овочами",
-        especialBeefCheek: "Теляча щока  у вині з картопляним пюре",
+        especialBeefCheek: "Свиняча щока у вині з картопляним пюре",
         especialHalfChicken: "1/2 запеченої курки з запеченою картоплею  і розмарином",
 
 
@@ -987,7 +987,7 @@ const translations = {
       especialRoastedPotatSalm: "Картофельные запеченные бомбочки, фаршированные лососем и укропом",
       especialRisotto: "Ризотто с грибами",
       especialSalmonVerd: "Запечённый лосось с овощами",
-      especialBeefCheek: "Говяжьи щёчки в винном соусе с картофельным пюре",
+      especialBeefCheek: "Свиные щёчки в винном соусе с картофельным пюре",
       especialHalfChicken: "1/2 курицы, запечённая с картофелем и розмарином",
 
 
