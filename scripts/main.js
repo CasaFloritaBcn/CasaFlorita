@@ -1,12 +1,12 @@
 const translations = {
     en: {
-      reserve: "BOOKING",
+      reserveBtn: "BOOKING",
       navInicio: "HOME",
       navAbout: "ABOUT",
       navMenu: "MENU",
-      navContact: "CONTACTS",
+      navContact: "HOURS",
 
-      horario:"Schedule",
+      horario:"Hours",
 
       monday:"Monday",
       tuesday:"Tuesday",
@@ -24,6 +24,8 @@ const translations = {
       smallNavPostre: "DESSERTS",
       smallNavBebidas: "DRINKS",
       smallNavEspecial:"SPECIALTIES",
+      reserveBtnBurger: "BOOKING",
+      reserveBtn_down:"BOOKING",
 
       currentLang: "EN",
       langMarkerBtnInner:"EN",
@@ -221,11 +223,11 @@ const translations = {
 
     },
     es:{
-        reserve: "RESERVA",
+        reserveBtn: "RESERVA",
         navInicio: "INICIO",
         navAbout: "NOSOTROS",
         navMenu: "CARTA",
-        navContact: "CONTACTOS",
+        navContact: "HORARIO",
 
         horario:"Horario",
 
@@ -249,6 +251,8 @@ const translations = {
         smallNavPostre: "POSTRE",
         smallNavBebidas: "BEBIDAS",
         smallNavEspecial:"ESPECIALIDADES",
+        reserveBtnBurger: "RESERVA",
+        reserveBtn_down:"RESERVA",
 
         about_first_text_title: "¡El sabor es impecable!",
         about_first_text_body: "Con orgullo les ofrecemos no solo una variedad de platos deliciosos, sino también una experiencia única que comienza con los ingredientes más frescos y termina con platos magistralmente preparados, capaces de satisfacer incluso los más altos requisitos gastronómicos.",
@@ -444,11 +448,11 @@ const translations = {
         
     },
     ca:{
-        reserve: "RESERVA",
+      reserveBtn: "RESERVA",
         navInicio: "INICI",
         navAbout: "NOSALTRES",
         navMenu: "CARTA",
-        navContact: "CONTACTES",
+        navContact: "HORARI",
 
         horario:"Horari",
 
@@ -471,6 +475,8 @@ const translations = {
         smallNavPostre: "POSTRES",
         smallNavBebidas: "BEGUDES",
         smallNavEspecial:"ESPECIALITATS",
+        reserveBtnBurger: "RESERVA",
+        reserveBtn_down:"RESERVA",
 
         about_first_text_title: "El gust és impecable!",
         about_first_text_body: "Amb orgullus us oferim no només una varietat de plats deliciosos, sinó també una experiència única que comença amb els ingredients més frescos i acaba amb plats magistralment preparats que poden satisfer fins i tot els requisits gastronòmics més alts.",
@@ -667,11 +673,11 @@ const translations = {
         
     },
     ua:{
-        reserve: "РЕЗЕРВ",
+      reserveBtn: "РЕЗЕРВ",
         navInicio: "СТАРТ",
         navAbout: "ПРО НАС",
         navMenu: "МЕНЮ",
-        navContact: "КОНТАКТИ",
+        navContact: "РОЗКЛАД",
 
         horario:"Розклад",
 
@@ -694,6 +700,8 @@ const translations = {
         smallNavPostre: "ДЕСЕРТИ",
         smallNavBebidas: "НАПОЇ",
         smallNavEspecial:"СПЕЦІАЛЬНЕ",
+        reserveBtnBurger: "РЕЗЕРВ",
+        reserveBtn_down:"РЕЗЕРВ",
 
         about_first_text_title: "Смак бездоганний!",
         about_first_text_body: "Ми з гордістю пропонуємо вам не лише різноманітні та смачні страви, але й унікальний досвід, який починається з найсвіжіших інгредієнтів і завершується майстерно приготованими стравами, здатними задовольнити навіть найвищі гастрономічні вимоги.",
@@ -889,11 +897,11 @@ const translations = {
        
     },
     ru: {
-        reserve: "БРОНЬ",
+        reserveBtn: "БРОНЬ",
         navInicio: "СТАРТ",
         navAbout: "О НАС",
         navMenu: "МЕНЮ",
-        navContact: "КОНТАКТЫ",
+        navContact: "РАСПИСАНИЕ",
 
         horario:"Расписание",
 
@@ -916,6 +924,8 @@ const translations = {
         smallNavPostre: "ДЕСЕРТЫ",
         smallNavBebidas: "НАПИТКИ",
         smallNavEspecial:"СПЕЦИАЛЬНОЕ",
+        reserveBtnBurger: "БРОНЬ",
+        reserveBtn_down:"БРОНЬ",
 
         about_first_text_title: "Вкус безупречен!",
         about_first_text_body: "Мы с гордостью предлагаем вам не только разнообразные и вкусные блюда, но и уникальный опыт, который начинается с самых свежих ингредиентов и завершается мастерски приготовленными блюдами, способными удовлетворить даже самые высокие гастрономические требования.",
@@ -1116,6 +1126,7 @@ const translations = {
 
 function changeLanguage(language) {
     const elements = {
+      reserveBtn_down:"reserveBtn_down",
       langMarkerBtn: "langMarkerBtn",
       reserveBtn: "reserveBtn",
       reserveBtnBurger: "reserveBtnBurger",
@@ -1130,7 +1141,7 @@ function changeLanguage(language) {
       menuTitle: "menuTitle",
       socialTitle: "socialTitle",
       instaTikTokContainerTitle: "instaTikTokContainerTitle",
-
+      
       horario:"horarioTitle",
 
       monday: "dayMonday",

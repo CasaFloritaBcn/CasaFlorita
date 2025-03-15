@@ -106,7 +106,7 @@ header {
             position: fixed;
             top: 59px;
             right: -100%;
-            width: 150px;
+            width: 170px;
             height: 100%;
             background: #f7b7b1;
             display: flex;
@@ -742,7 +742,7 @@ main{
                 max-width: 80%;
                 background-color:rgba(255, 255, 255, 0.6);
                 border-radius: 88px;
-                padding: 80px 60px 70px 60px;
+                padding: 60px 60px 60px 60px;
                 cursor: default;
                 h4{
                     color: #B53226;
@@ -772,6 +772,28 @@ main{
                         scale: 0.99;
                     }
                     
+                }
+            }
+            .reservar_container_down{
+                display: flex;
+                justify-content: center;
+              
+               
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    letter-spacing: 0.7px;
+                    background-color: #E18F90;
+                    padding: 15px 40px;
+                    border-radius: 30px;
+                    /* font-family: 'Gerislan'; */
+                    font-weight: 400; 
+                    font-size: 46px;
+                    transition: color 0.4s, background-color 0.4s;
+                }
+                a:hover{
+                    color: #E18F90;
+                    background-color: #FFFFFF;
                 }
             }
 
@@ -1175,6 +1197,12 @@ main{
                         max-width: 100%;
                     }
                 }
+                .reservar_container_down{
+                    a{
+                        font-size: 32px;
+                    }
+                    
+                }
                 .social{
                     margin-top: 30px;
                     padding: 40px 20px 30px 20px;
@@ -1313,7 +1341,15 @@ main{
 
         .contactsSection{
             .contacts_inner{
+                .reservar_container_down{
+                    a{
+                        font-size: 26px;
+                        padding: 10px 35px;
+                    }
+                    
+                }
                 .social{
+                    padding: 30px 60px 30px 60px;
                     h4{
                         font-size: 20px;
                     }
@@ -1342,10 +1378,12 @@ main{
                     }
                 }
                 .instaTikTokContainer{
+                    padding: 30px 60px 30px 60px;
                     h4{
                         font-size: 20px;
                     }
                     .instaTikTokIconsContainers{ 
+                        
                         img{
                             width: 50px;
                         }
