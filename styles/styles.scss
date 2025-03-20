@@ -359,6 +359,7 @@ main{
         position: relative;
         display: block;
         width: 100%;
+      
         
         img{
             width: 100%;
@@ -368,22 +369,49 @@ main{
             margin: 0 auto;
             box-shadow: 0 5px 5px -4px rgba(0, 0, 0, 0.413);
         }
-        h1{
+        .heroInnerContent{
+        
             position: absolute;
-            cursor: default;
-            top: 50%; 
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px; 
+            z-index: 2;
             text-align: center;
-            /* font-size: 110px; */
-            font-size: 6.8vw;
-            white-space: nowrap;
-            font-weight: 300;
-            padding: 0 50px;
-            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.879);
+            h1{
+           
+                cursor: default;
+                color: white;
+                font-size: 6.8vw;
+                white-space: nowrap;
+                font-weight: 300;
+                padding: 0 50px;
+                text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.879);
+                margin: 0;
+            }
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                letter-spacing: 0.7px;
+                background-color: #d16a6c;
+                padding: 15px 40px;
+                border-radius: 30px;
+                /* font-family: 'Gerislan'; */
+                font-weight: 400; 
+                font-size: 46px;
+                transition: color 0.4s, background-color 0.4s;
+            }
+            a:hover{
+                color: #E18F90;
+                background-color: #FFFFFF;
+            }
             
         }
+
     }
 
     .aboutSection{
@@ -961,6 +989,7 @@ main{
         }
     }
     main{
+
         .aboutSection{
             .about_inner{
                 .about_first{
@@ -1123,6 +1152,8 @@ main{
 
     main{
         margin-top: 100px;
+
+
 
         .aboutSection{
             .about_inner{
@@ -1301,6 +1332,15 @@ main{
 
     main{
         margin-top: 60px;
+
+        .heroSection{
+            .heroInnerContent{
+                a{
+                    font-size: 36px;
+                }
+            }
+        }
+
         .aboutSection{
             .about_inner{
                 .about_first{
@@ -1410,6 +1450,17 @@ main{
     }
 
     main{
+
+        .heroSection{
+            .heroInnerContent{
+                gap: 10px; 
+                a{
+                    border-radius: 25px;
+                    font-size: 20px;
+                    padding: 7px 27px;
+                }
+            }
+        }
 
        .aboutSection{
         .about_inner{
