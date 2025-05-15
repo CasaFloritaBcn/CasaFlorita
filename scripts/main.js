@@ -102,7 +102,8 @@ const translations = {
       especialSalmonVerd: "Oven-baked salmon with vegetables",
       especialBeefCheek: "Pork cheek in wine sauce with mashed potatoes",
       especialHalfChicken: "1/2 roasted chicken with roasted potatoes and rosemary",
-
+      especialTortitas: "Potato pancakes with sour cream",
+      especialTortitasDesc:"(+ salmón gravlax) 3.50 €",
 
       /* ENSALADAS */
       ensaladasHeading: "SALADS",
@@ -112,6 +113,10 @@ const translations = {
       ensaladasBurrataDesc: "Heirloom tomatoes with pesto, burrata, toasted nuts, and balsamic cream",
       ensaladasFlorita: "FLORITA SALAD",
       ensaladasFloritaDesc: "Mixed greens, salmon, fresh avocado, beet hummus, cherry tomatoes, sun dried tomatoes, seasonal fruits, and Florita sauce",
+      ensaladasBowlQinoa:"BOWL DE QUINOA",
+      ensaladasBowlQinoaDesc:"Quinoa, marinated salmon, avocado, green seaweed, soybeans, sauteed shimeji and carrot",
+      ensaladasBowlTrigo:"BUCKWHEAT BOWL",
+      ensaladasBowlTrigoDesc:"Buckwheat, chef's burgers and sauteed vegetables",
 
         
       /* PARA PICAR */
@@ -126,6 +131,8 @@ const translations = {
       picarTartarSalm: "Salmon and avocado tartar",
       picarCeviche: "Corvina ceviche",
       picarBurrataAnch: "Burrata with anchovies and tomato",
+      picarAceitunas:"Olives",
+
 
       /* EXTRAS */
       extrasHeading: "EXTRAS",
@@ -187,6 +194,8 @@ const translations = {
       zumosPasDesc:"Beetroot, berries, apple, peach",
       zumosTropical: "Tropical",
       zumosTropicalDesc: "Pineapple, pear, lemon, ginger, mango",
+      zumosOrangeMatcha:"Orange matcha",
+      zumosFresaPlatano:"Strawberry and banana",
 
 
       /* Aperitivos & Cócteles */
@@ -326,16 +335,22 @@ const translations = {
       especialSalmonVerd: "Salmón al horno con verduras",
       especialBeefCheek: "Carrillera al vino con puré de patata",
       especialHalfChicken: "1/2 de pollo al horno con patata asada y romero",
+      especialTortitas: "Tortitas de patata con nata agria",
+      especialTortitasDesc:"(+ salmón gravlax) 3.50 €",
 
 
       /* ENSALADAS */
-      ensaladasHeading: "ENSALADAS",
+      ensaladasHeading: "ENSALADAS & BOWLS",
       ensaladasCesar: "ENSALADA CÉSAR",
       ensaladasCesarDesc:"Lechuga, pechuga de pollo, tomates cherry, escamas de parmesano, granada, picatostes y salsa César casera",
       ensaladasBurrata:"ENSALADA DE BURRATA",
       ensaladasBurrataDesc: "Tomate heirloom con pesto, burrata, nueces tostadas y crema balsámica",
       ensaladasFlorita: "ENSALADA LA FLORITA",
       ensaladasFloritaDesc: "Ensalada mixta, salmón, aguacate fresco, hummus de remolacha, tomate cherry, tomate seco, frutas de temporada y salsa Florita",
+      ensaladasBowlQinoa:"BOWL DE QUINOA",
+      ensaladasBowlQinoaDesc:"Quinoa, salmón marinado, aguacate, algas verdes, semillas de soja, shimeji salteado y zanahoria",
+      ensaladasBowlTrigo:"BOWL DE TRIGO SARRACENO",
+      ensaladasBowlTrigoDesc:"Trigo sarraceno, hamburguesitas del chef y verduras salteadas",
 
         
       /* PARA PICAR */
@@ -350,6 +365,7 @@ const translations = {
       picarTartarSalm: "Tartar de salmón y aguacate",
       picarCeviche: "Ceviche de corvina",
       picarBurrataAnch: "Burrata con anchoas y tomate",
+      picarAceitunas:"Aceitunas",
 
       /* EXTRAS */
       extrasHeading: "EXTRAS",
@@ -411,6 +427,8 @@ const translations = {
       zumosPasDesc:"Remolacha, frutos rojos, manzana y melocotón",
       zumosTropical: "Tropical",
       zumosTropicalDesc: "Piña, pera, limón, jengibre y mango",
+      zumosOrangeMatcha:"Orange matcha",
+      zumosFresaPlatano:"Fresa y plátano",
 
 
       /* Aperitivos & Cócteles */
@@ -549,18 +567,24 @@ const translations = {
       especialSalmonVerd: "Salmó al forn amb verdures",
       especialBeefCheek: "Carrillera al vi amb puré de patata",
       especialHalfChicken: "1/2 de pollastre al forn amb patata rostida i romaní",
+      especialTortitas: "Tortetes de patata ratllada amb nata agra",
+      especialTortitasDesc:"(+ salmó gravlax) 3.50 €",
 
 
       /* ENSALADAS */
-      ensaladasHeading: "AMANIDES",
+      ensaladasHeading: "AMANIDES & BOWLS",
       ensaladasCesar: "AMANIDA CÈSAR",
       ensaladasCesarDesc:"Enciam fresc, pit de pollastre, tomàquets cherry, escates de parmesà, magrana, crostons i salsa Cèsar casolana",
       ensaladasBurrata:"AMANIDA DE BURRATA",
       ensaladasBurrataDesc: "Tomàquet heirloom amb pesto, burrata, nous torrades i crema balsàmica",
       ensaladasFlorita: "AMANIDA LA FLORITA",
       ensaladasFloritaDesc: "Amanida mixta, salmó, alvocat fresc, hummus de remolatxa, tomàquet cherry, tomàquet sec, fruites de temporada i salsa Florita",
-
+      ensaladasBowlQinoa:"BOWL DE QUINOA",
+      ensaladasBowlQinoaDesc:"Quinoa, salmó marinat, alvocat, algues verdes, llavors de soja, shimeji saltat i pastanaga",
+      ensaladasBowlTrigo:"BOWL DE BLAT SARRAÍ",
+      ensaladasBowlTrigoDesc:"Blat sarraí, hamburguesetes del xef i verdures saltejades",
         
+
       /* PARA PICAR */
       picarHeading: "PER PICAR",
       picarPanTomato: "Pa amb tomàquet",
@@ -573,6 +597,7 @@ const translations = {
       picarTartarSalm: "Tàrtar de salmó i alvocat",
       picarCeviche: "Ceviche de corvina",
       picarBurrataAnch: "Burrata amb anxoves i tomàquet",
+      picarAceitunas:"Olives",
 
       /* EXTRAS */
       extrasHeading: "EXTRES",
@@ -622,7 +647,7 @@ const translations = {
       tesMatcha: "Matcha",
 
       /* Zumos & Batidos de fruta */
-      zumosHeading: "Sucs & Batuts de fruita",
+      zumosHeading: "Sucs & Batuts de fruita natural",
       zumosNaranja: "Taronja natural",
       zumosManzana: "Poma natural",
       zumosPepino: "Cogombre amb api",
@@ -634,6 +659,8 @@ const translations = {
       zumosPasDesc:"Remolatxa, fruits vermells, poma i préssec",
       zumosTropical: "Tropical",
       zumosTropicalDesc: "Pinya, pera, llimona, gingebre i mango",
+      zumosOrangeMatcha:"Orange matcha",
+      zumosFresaPlatano:"Maduixa i platàn",
 
 
       /* Aperitivos & Cócteles */
@@ -775,6 +802,8 @@ const translations = {
         especialSalmonVerd: "Запечений лосось з овочами",
         especialBeefCheek: "Свиняча щока у вині з картопляним пюре",
         especialHalfChicken: "1/2 запеченої курки з запеченою картоплею  і розмарином",
+        especialTortitas: "Деруни зі сметаною",
+        especialTortitasDesc:"(+ лосось) 3.50 €",
 
 
         /* ENSALADAS */
@@ -785,8 +814,13 @@ const translations = {
         ensaladasBurrataDesc: "Помідори heirloom із песто, буррата, смажені горіхи та бальзамічний крем",
         ensaladasFlorita: "САЛАТ ФЛОРІТА",
         ensaladasFloritaDesc: "Мікс листя салату, лосось, авокадо, буряковий хумус, помідори черрі, в'ялені помідори, сезонні фрукти  і соус Florita",
-
+        ensaladasBowlQinoa:"КІНОА BOWL",
+        ensaladasBowlQinoaDesc:"Кіноа, маринований лосось, авокадо, зелені водорості, соєві боби, смажені шимеджі та морква",
+        ensaladasBowlTrigo:"ГРЕЧКА BOWL",
+        ensaladasBowlTrigoDesc:"Гречка, котлети та овочеві соте",
           
+
+
         /* PARA PICAR */
         picarHeading: "НА ПЕРЕКУС",
         picarPanTomato: "Хліб з помідорами",
@@ -799,6 +833,7 @@ const translations = {
         picarTartarSalm: "Тартар із лосося та авокадо",
         picarCeviche: "Севіче з корвіни",
         picarBurrataAnch: "Буррата з анчоусами та помідорами",
+        picarAceitunas:"Маслини",
 
         /* ДОПОВНЕННЯ */
         extrasHeading: "ДОПОВНЕННЯ",
@@ -860,6 +895,8 @@ const translations = {
         zumosPasDesc:"Буряк, ягоди, яблуко та персик",
         zumosTropical: "Tropical",
         zumosTropicalDesc: "Ананас, груша, лимон, імбир і манго",
+        zumosOrangeMatcha:"Orange matcha",
+        zumosFresaPlatano:"Полуниця та банан",
 
 
         /* Aperitivos & Cócteles */
@@ -999,6 +1036,8 @@ const translations = {
       especialSalmonVerd: "Запечённый лосось с овощами",
       especialBeefCheek: "Свиные щёчки в винном соусе с картофельным пюре",
       especialHalfChicken: "1/2 курицы, запечённая с картофелем и розмарином",
+      especialTortitas: "Драники со сметаной",
+      especialTortitasDesc:"(+ маринованный лосось) 3.50 €",
 
 
       /* ENSALADAS */
@@ -1009,7 +1048,12 @@ const translations = {
       ensaladasBurrataDesc: "Томаты с соусом песто, буррата, обжаренные орехи и бальзамический крем",
       ensaladasFlorita: "САЛАТ ФЛОРИТА",
       ensaladasFloritaDesc: "Микс листьев салатов, маринованный лосось, свежий авокадо, свекольный хумус, помидоры черри, вяленые томаты, сезонные фрукты и соус Флорита",
+      ensaladasBowlQinoa:"КИНОА BOWL",
+      ensaladasBowlQinoaDesc:"Киноа, маринованный лосось, авокадо, зеленые водоросли, соевые бобы, обжаренные шимеджи и морковь",
+      ensaladasBowlTrigo:"ГРЕЧКА BOWL",
+      ensaladasBowlTrigoDesc:"Гречка, котлеты и жареные овощи",
 
+      
         
       /* PARA PICAR */
       picarHeading: "ЗАКУСКИ",
@@ -1023,6 +1067,7 @@ const translations = {
       picarTartarSalm: "Тартар из лосося и авокадо",
       picarCeviche: "Севиче из корвины",
       picarBurrataAnch: "Буррата с анчоусами и томатами",
+      picarAceitunas:"Оливки",
 
       /* EXTRAS */
       extrasHeading: "ДОПОЛНИТЕЛЬНО",
@@ -1084,6 +1129,8 @@ const translations = {
       zumosPasDesc:"Свекла, ягоды, яблоко, персик",
       zumosTropical: "Tropical",
       zumosTropicalDesc: "Ананас, груша, лимон, имбирь, манго",
+      zumosOrangeMatcha:"Матча с апельсиновым соком",
+      zumosFresaPlatano:"Клубника и банан",
 
 
       /* Aperitivos & Cócteles */
@@ -1229,7 +1276,8 @@ function changeLanguage(language) {
         especialSalmonVerd: "especialSalmonVerd",
         especialBeefCheek: "especialBeefCheek",
         especialHalfChicken: "especialHalfChicken",
-
+        especialTortitas:"especialTortitas",
+        especialTortitasDesc:"especialTortitasDesc",
       
 
         /* ENSALADAS */
@@ -1240,6 +1288,10 @@ function changeLanguage(language) {
         ensaladasBurrataDesc: "ensaladasBurrataDesc",
         ensaladasFlorita: "ensaladasFlorita",
         ensaladasFloritaDesc: "ensaladasFloritaDesc",
+        ensaladasBowlQinoa:"ensaladasBowlQinoa",
+        ensaladasBowlQinoaDesc:"ensaladasBowlQinoaDesc",
+        ensaladasBowlTrigo:"ensaladasBowlTrigo",
+        ensaladasBowlTrigoDesc:"ensaladasBowlTrigoDesc",
 
 
 
@@ -1255,6 +1307,7 @@ function changeLanguage(language) {
         picarTartarSalm:"picarTartarSalm",
         picarCeviche:"picarCeviche",
         picarBurrataAnch:"picarBurrataAnch",
+        picarAceitunas:"picarAceitunas",
 
 
 
@@ -1315,6 +1368,8 @@ function changeLanguage(language) {
         zumosPasDesc: "zumosPasDesc",
         zumosTropical: "zumosTropical",
         zumosTropicalDesc: "zumosTropicalDesc",
+        zumosOrangeMatcha:"zumosOrangeMatcha",
+        zumosFresaPlatano:"zumosFresaPlatano",
         
 
         /* Aperitivos */
