@@ -445,7 +445,7 @@ const translations = {
       refrescosHeading: "Refrescos",
       refrescosAguaMin: "Agua mineral",
       refrescosAguaGas: "Agua con gas",
-      refrescosCacaolat: "Cacaolat",
+      refrescosCacaolat: "ColaCao",
 
 
       /* Vinos */
@@ -677,7 +677,7 @@ const translations = {
       refrescosHeading: "Refrescos",
       refrescosAguaMin: "Aigua mineral",
       refrescosAguaGas: "Aigua amb gas",
-      refrescosCacaolat: "Cacaolat",
+      refrescosCacaolat: "ColaCao",
 
 
       /* Vinos */
@@ -913,7 +913,7 @@ const translations = {
         refrescosHeading: "Безалкогольні напої",
         refrescosAguaMin: "Hегазована вода",
         refrescosAguaGas: "Газована вода",
-        refrescosCacaolat: "Coca cola",
+        refrescosCacaolat: "ColaCao",
 
 
         /* Vinos */
